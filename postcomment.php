@@ -1,7 +1,8 @@
 <?php
 
 require_once('recaptchalib.php');
-$privatekey = 'not on github, sorry ;)';
+require_once('keys.php');
+$privatekey = $recaptcha_privatekey;
 $resp = recaptcha_check_answer ($privatekey,
 	$_SERVER['REMOTE_ADDR'],
 	$_POST['recaptcha_challenge_field'],
