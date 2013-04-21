@@ -4,6 +4,7 @@
 		<ul>
 			<li><a href="https://github.com/IllDepence/MALandBots">MALandBots</a></li>
 			<li><a href="https://github.com/IllDepence/jpvoc">jpvoc</a></li>
+			<li><a href="https://github.com/IllDepence/sirtetris.com">sirtetris.com</a></li>
 		</ul>
 	</div>
 </div>
@@ -113,6 +114,8 @@
 		<p>Technology wise I went from HTML 4.01 over XHTML 1.0 strict to HTML 5; from no server-side scriptig to PHP; from no database over MySQL to simple JSON files; from no over mandatory to supplemental JavaScript.</p>
 		<br />
 		<p>Concerning content: photography was always there, then followed self description and interests and later a blog and links. Other stuff like downloads, a page on open source, etc. comes and goes.</p>
+		<br />
+		<p>Since April 2013 the code of this website is maintained on <a href="https://github.com/IllDepence/sirtetris.com">GitHub</a>.</p>
 	</div>
 
 	<!--<div class="innercontent_l">
