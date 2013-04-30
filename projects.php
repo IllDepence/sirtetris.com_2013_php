@@ -38,13 +38,13 @@
 				</ul></li>
 			<li><strong>Kanji</strong>
 			<ul>
-				<li>Radicals <span style="color: #ff0000">✗</span>
+				<li>Radicals <span style="color: #bc9600">➤</span>
 				<ul>
-					<li>0/214</li>
+					<li>5/214</li>
 				</ul></li>
-				<li>Kanji <span style="color: #ff0000">✗</span>
+				<li>Kanji <span style="color: #bc9600">➤</span>
 				<ul>
-					<li>0</li>
+					<li>3</li>
 				</ul></li>
 			</ul>
 		</ul>
@@ -53,11 +53,11 @@
 		<ul>
 			<li>Kana only <span style="color: #bc9600">➤</span>
 				<ul>
-					<li>75-100 words</li>
+					<li>150-200 words</li>
 				</ul></li>
-			<li>with Kanji <span style="color: #ff0000">✗</span>
+			<li>with Kanji <span style="color: #bc9600">➤</span>
 				<ul>
-					<li>0</li>
+					<li>&lt;25</li>
 				</ul></li>
 		</ul>
 		<br />
@@ -73,7 +73,7 @@
 						<li>present/past [negation], let's, wish</li>
 					</ul></li>
 					<li>〜た/〜て <span style="color: #bc9600">➤</span><ul>
-						<li>learning -u group rules and general uses (〜ください, 〜から、, etc.)</li>
+						<li>learning -u group rules and uses (〜ください, 〜から、, etc.)</li>
 					</ul></li>
 				</ul></li>
 			<li><strong>Adjectives</strong>
@@ -81,8 +81,8 @@
 					<li>な group <span style="color: #bc9600">➤</span><ul>
 						<li>predicative, attributive, adverbial</li>
 					</ul></li>
-					<li>い group <span style="color: #ff0000">✗</span><ul>
-						<li>in class soon</li>
+					<li>い group <span style="color: #bc9600">➤</span><ul>
+						<li>learning rules</li>
 					</ul></li>
 				</ul></li>
 			<li><strong>all the stuff I don't even know about</strong> (yet) <span style="color: #ff0000">✗</span></li>

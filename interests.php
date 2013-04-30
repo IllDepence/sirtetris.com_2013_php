@@ -74,22 +74,29 @@
 	
 	<div class="innercontent_l">
 		<h1>Kyogi Karuta</h1>
-		<p><em>I have no idea what I'm doing ...</em></p>
+		<p><em>難波津に…</em></p>
 		<br />
 		<img src="img/interests/karuta.jpg" alt="karuta.jpg" />
 		<br />
-		<p><a href="http://en.wikipedia.org/wiki/Karuta">Karuta</a> (かるた) is a Japanese card game. <a href="http://en.wikipedia.org/wiki/Competitive_karuta">Kyogi karuta</a> (競技かるた) or "competitive karuta" means playing <a href="http://en.wikipedia.org/wiki/Uta-garuta">Uta-garuta</a> (歌ガルタ) in a competitive manner. Uta-garuta is a kind of karuta, which uses the poem collection <a href="https://en.wikipedia.org/wiki/Ogura_Hyakunin_Isshu">Ogura Hyakunin Isshu</a> (小倉百人一首) by <a href="http://en.wikipedia.org/wiki/Fujiwara_no_Teika">Fujiwara no Teika</a> (藤原 定家).</p>
+		<p><a href="http://en.wikipedia.org/wiki/Karuta">Karuta</a> (かるた) is a Japanese card game based on the poem collection <a href="https://en.wikipedia.org/wiki/Ogura_Hyakunin_Isshu">Ogura Hyakunin Isshu</a> (小倉百人一首) — often just called the Hyakunin Issu (百人一首) — by <a href="http://en.wikipedia.org/wiki/Fujiwara_no_Teika">Fujiwara no Teika</a> (藤原 定家).</p>
+		<p><a href="http://en.wikipedia.org/wiki/Competitive_karuta">Kyogi karuta</a> (競技かるた) means playing かるた in a competitive manner.</p>
 		<br />
 		<p>An English version of the rules of kyogi karuta can be found <a href="http://karuta.game.coocan.jp/simplerule-e.html">here</a>. Further useful resources:</p>
 		<ul>
-		<li><a href="http://etext.virginia.edu/japanese/hyakunin/index.html">Ogura Hyakunin Isshu overview with english translations</a></li>
-		<li><a href="http://www.karuta.or.jp/">Japan Karuta Association</a></li>
-		<li><a href="http://www.karuta.net/">karuta.net</a></li>
-		<li><a href="http://tengudo.jp/">tengudo.jp</a></li>
+		<li><a href="http://www.karuta.or.jp/">Japan Karuta Association</a> (up-to-date information about tournaments)</li>
+		<li><a href="http://karuta.game.coocan.jp/index.html">World of Kyogi Karuta</a></li>
+		<li><a href="http://etext.virginia.edu/japanese/hyakunin/index.html">Hyakunin Isshu overview with english translations</a></li>
 		</ul>
 		<br />
-		<p>To get a brief look at how kyogi karuta is played, watch the following video:</p>
+		<p>To get an idea of how kyogi karuta is played, watch one of the following videos:</p>
 		<?php echo youtubedd('Explanatory karuta match with English commentary', 'nKAmZxVhQww'); ?>
+		<?php echo youtubedd('Recording of a karuta match with visual aids and slow motion replays', 'BiID7_0aqsc'); ?>
+		<br />
+		<p>Even more goodies:
+		<ul>
+		<li><a href="https://secure.flickr.com/photos/nzkka/">the flickr account</a> of the New Zealand Karuta Association.</li>
+		<li><a href="http://www.asahi-net.or.jp/~xs3d-bull/essays/karuta/karuta.html">a nice essay</a> about kyogi karuta</li>
+		</ul>
 		<br />
 		<p>A fun way to learn more about the world of karuta would be reading the manga <a href="http://en.wikipedia.org/wiki/Chihayafuru">Chihayafuru</a> or watching the anime adaptaion.</p>
 	</div>
