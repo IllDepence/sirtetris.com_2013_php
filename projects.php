@@ -23,70 +23,19 @@
 		<img src="img/projects/jp.png" alt="jp.png" />
 		<br />
 		<p>I'm currently taking two Japanese courses offered by the language center at my uni. They're a great source for grammar, vocab and a general guideline but sadly don't cover kanji. I therefore learn them on my own, utilizing "Kanji und Kana" by <a href="http://www.hadamitzky.de/">W. Hadamitzky</a>, Jim Breen's <a href="http://www.csse.monash.edu.au/~jwb/cgi-bin/wwwjdic.cgi?1R">Radical Table for Multi-Radical Selection</a> and my own mnemonics. To get valuable feedback outside of class I write stuff on <a href="http://lang-8.com/">Lang-8</a>.</p>
-		<br />
-		<p>As a "positive feedback" thingy I'll note my progress here.</p>
-		<br />
-		<p><span style="color: #ff0000">✗</span> not yet started</p>
-		<p><span style="color: #bc9600">➤</span> in progress</p>
-		<p><span style="color: #009900">✔</span> done</p>
 		<div class="hr"></div>
-		<h3>Script</h3>
+		<h3>Progress</h3>
 		<ul>
-			<li>Kana <span style="color: #009900">✔</span>
-				<ul>
-					<li>92/92 + rules + stroke order</li>
-				</ul></li>
-			<li><strong>Kanji</strong>
-			<ul>
-				<li>Radicals <span style="color: #bc9600">➤</span>
-				<ul>
-					<li>5/214</li>
-				</ul></li>
-				<li>Kanji <span style="color: #bc9600">➤</span>
-				<ul>
-					<li>3</li>
-				</ul></li>
-			</ul>
-		</ul>
-		<br />
-		<h3>Vocab</h3>
-		<ul>
-			<li>Kana only <span style="color: #bc9600">➤</span>
-				<ul>
-					<li>150-200 words</li>
-				</ul></li>
-			<li>with Kanji <span style="color: #bc9600">➤</span>
-				<ul>
-					<li>&lt;25</li>
-				</ul></li>
-		</ul>
-		<br />
-		<h3>Grammar</h3>
-		<ul>
-			<li><strong>Particles</strong> <span style="color: #bc9600">➤</span>
-				<ul>
-					<li>guess it's save to assume that there's still stuff to learn</li>
-				</ul></li>
-			<li><strong>Verbs</strong>
-				<ul>
-					<li>〜ます <span style="color: #009900">✔</span><ul>
-						<li>present/past [negation], let's, wish</li>
-					</ul></li>
-					<li>〜た/〜て <span style="color: #bc9600">➤</span><ul>
-						<li>learning -u group rules and uses (〜ください, 〜から、, etc.)</li>
-					</ul></li>
-				</ul></li>
-			<li><strong>Adjectives</strong>
-				<ul>
-					<li>な group <span style="color: #bc9600">➤</span><ul>
-						<li>predicative, attributive, adverbial</li>
-					</ul></li>
-					<li>い group <span style="color: #bc9600">➤</span><ul>
-						<li>learning rules</li>
-					</ul></li>
-				</ul></li>
-			<li><strong>all the stuff I don't even know about</strong> (yet) <span style="color: #ff0000">✗</span></li>
-		</ul>
+			<li><strong>Kanji</strong><ul>
+				<li>10-20</li>
+			</ul></li>
+			<li><strong>Vocab</strong><ul>
+				<li>150-200</li>
+			</ul></li>
+			<li><strong>Grammar</strong><ul>
+				<li><a href="https://github.com/IllDepence/jpcheatsheets">github.com/IllDepence/jpcheatsheets</a></li>
+			</ul></li>
+		</li>
 	</div>
 
 	<div class="innercontent_l">

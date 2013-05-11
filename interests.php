@@ -94,7 +94,7 @@
 		<br />
 		<p>Even more goodies:
 		<ul>
-		<li><a href="https://secure.flickr.com/photos/nzkka/">the flickr account</a> of the New Zealand Karuta Association.</li>
+		<li><a href="https://secure.flickr.com/photos/nzkka/">the flickr account</a> of the New Zealand Karuta Association</li>
 		<li><a href="http://www.asahi-net.or.jp/~xs3d-bull/essays/karuta/karuta.html">a nice essay</a> about kyogi karuta</li>
 		</ul>
 		<br />
