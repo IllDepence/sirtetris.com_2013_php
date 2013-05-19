@@ -67,6 +67,7 @@
 			<li><a href="http://www.fengyunzhibo.com/space/japan.htm">Japanese TV</a></li>
 			<li><a href="http://www.csse.monash.edu.au/~jwb/cgi-bin/wwwjdic.cgi?1R">Multi-Radical Kanji Search</a></li>
 			<li><a href="?a=079cf21f">Kana input without IM</a> (Linux/BSD)</li>
+			<li><a href="http://youtu.be/pFyKE5zPDQM">Kanji handwriting with a graphic tablet</a></li>
 		</ul>
 		<br />
 		<p>My personal Japanese progress has it's own place in the <a href="?c=projects">projects section</a>.</p>
@@ -112,7 +113,7 @@
 	<p>The exact mechanisms of how mechanical keyboard switches work differ from each other. In most cases the switches of one vendor have colored stems which give them their name and indicate their tactile and acoustic behaviour. More information can be found in the <a href="http://deskthority.net/wiki/Category:Keyboard_switches">deskthority wiki</a>.</p>
 	<p>The reason for most people to use a mechanical keyboard is the higher quality and durability, the fact that you can choose a swich type that fits your "taste" the best and generally the more comfortable feeling when typing. If you're interested in the topic be sure to check out <a href="http://geekhack.org/">geekhack.org</a> and <a href="http://deskthority.net/">deskthority.net</a>.</p>
 	<br />
-	<p>I myself use a KPC Poker with Cherry MX Blue switches as primary keyboard (the one on top on the picture above) and I also own a Leopold FC500RT/AB with MX Browns (middle) as well as a SteelSeries 7G with MX Blacks (bottom).</p>
+	<p>I myself use a KBC Poker with Cherry MX Blue switches as primary keyboard (the one on top on the picture above) and I also own a Leopold FC500RT/AB with MX Browns (middle) as well as a SteelSeries 7G with MX Blacks (bottom).</p>
 	</div>
 	
 	<div class="innercontent_l">
