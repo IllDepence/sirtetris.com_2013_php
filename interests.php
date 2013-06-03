@@ -51,21 +51,29 @@
 		<br />
 		<p>Prepare to face three different, partly redundant, simultaneously used scripts; characters made up of more than 20 strokes and various ways to read and interpret them depending on their current context; and over 30 (!!!) individual ways to count things, each assiciated with a group of things it's used for.</p>
 		<br />
-		<p><strong>Overview and links to further resources</strong></p>
+		<p><strong>Overview</strong></p>
 		<ul>
 			<li><a href="http://www.reddit.com/r/LearnJapanese/">/r/LearnJapanese</a>'s <a href="http://www.reddit.com/r/LearnJapanese/wiki/index">wiki</a></li>
 			<li><a href="http://www.tofugu.com/2010/04/06/tofugu-100-best-japanese-learning-resources/">Tofugu’s 100 Best Resources For Learning Japanese</a></li>
 		</ul>
-		<p><strong>Start learning with</strong></p>
+		<p><strong>Guides</strong></p>
 		<ul>
+			<li><a href="http://www.guidetojapanese.org/learn/">Tae Kim's Guide to Learning Japanese</a> (completely free, with extensive grammar guide)</li>
 			<li><a href="http://www.textfugu.com/">TextFugu</a> (free up to the point where you'd start learning kanji)</li>
-			<li><a href="http://learnjapanesepod.com/kana-invaders/">Kana Invaders</a></li>
 		</ul>
-		<p><strong>Miscellaneous stuff</strong></p>
+		<p><strong>Tools</strong></p>
 		<ul>
 			<li><a href="http://lang-8.com/">Lang-8</a> (corrections from native speakers)</li>
-			<li><a href="http://www.fengyunzhibo.com/space/japan.htm">Japanese TV</a></li>
+			<li><a href="http://ankisrs.net/">Anki</a> (<a href="https://en.wikipedia.org/wiki/Spaced_repetition">SRS</a> with synchronization and great japanese plugins)</li>
 			<li><a href="http://www.csse.monash.edu.au/~jwb/cgi-bin/wwwjdic.cgi?1R">Multi-Radical Kanji Search</a></li>
+			<li>more <a href="http://en-to.jp/">Multi-Radical Kanji Search</a></li>
+			<li>Kanji dictionaries: <a href="http://jisho.org/">Denshi Jisho</a>, <a href="http://tangorin.com/">tangorin</a></li>
+			<li><a href="http://tatoeba.org/eng/sentences/show_all_in/jpn/eng/none">Example sentences</a></li>
+		</ul>
+		<p><strong>Misc</strong></p>
+		<ul>
+			<li><a href="http://learnjapanesepod.com/kana-invaders/">Kana Invaders</a></li>
+			<li><a href="http://www.fengyunzhibo.com/space/japan.htm">Japanese TV</a></li>
 			<li><a href="?a=079cf21f">Kana input without IM</a> (Linux/BSD)</li>
 			<li><a href="http://youtu.be/pFyKE5zPDQM">Kanji handwriting with a graphic tablet</a></li>
 		</ul>

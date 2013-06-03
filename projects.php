@@ -27,10 +27,10 @@
 		<h3>Progress</h3>
 		<ul>
 			<li><strong>Kanji</strong><ul>
-				<li>10-20</li>
+				<li>60-70</li>
 			</ul></li>
 			<li><strong>Vocab</strong><ul>
-				<li>150-200</li>
+				<li>200-300</li>
 			</ul></li>
 			<li><strong>Grammar</strong><ul>
 				<li><a href="https://github.com/IllDepence/jpcheatsheets">github.com/IllDepence/jpcheatsheets</a></li>
