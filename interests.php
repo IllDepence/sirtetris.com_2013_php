@@ -58,13 +58,14 @@
 		</ul>
 		<p><strong>Guides</strong></p>
 		<ul>
-			<li><a href="http://www.guidetojapanese.org/learn/">Tae Kim's Guide to Learning Japanese</a> (completely free, with extensive grammar guide)</li>
-			<li><a href="http://www.textfugu.com/">TextFugu</a> (free up to the point where you'd start learning kanji)</li>
+			<li><a href="http://www.imabi.net/">IMABI</a> (free, 200+ lessons from beginner over itermediate and advanced up to classical Japanese)</li>
+			<li><a href="http://www.guidetojapanese.org/learn/">Tae Kim's Guide to Learning Japanese</a> (free, with extensive grammar guide)</li>
+			<li><a href="http://www.textfugu.com/">TextFugu</a> (free <em>only</em> up to the point where you'd start learning kanji)</li>
 		</ul>
 		<p><strong>Tools</strong></p>
 		<ul>
 			<li><a href="http://lang-8.com/">Lang-8</a> (corrections from native speakers)</li>
-			<li><a href="http://ankisrs.net/">Anki</a> (<a href="https://en.wikipedia.org/wiki/Spaced_repetition">SRS</a> with synchronization and great japanese plugins)</li>
+			<li><a href="http://ankisrs.net/">Anki</a> (<a href="https://en.wikipedia.org/wiki/Spaced_repetition">SRS</a> with synchronization and great plugins for Japanese)</li>
 			<li><a href="http://www.csse.monash.edu.au/~jwb/cgi-bin/wwwjdic.cgi?1R">Multi-Radical Kanji Search</a></li>
 			<li>more <a href="http://en-to.jp/">Multi-Radical Kanji Search</a></li>
 			<li>Kanji dictionaries: <a href="http://jisho.org/">Denshi Jisho</a>, <a href="http://tangorin.com/">tangorin</a></li>

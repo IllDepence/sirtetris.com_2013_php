@@ -27,7 +27,7 @@
 		<h3>Progress</h3>
 		<ul>
 			<li><strong>Kanji</strong><ul>
-				<li>60-70</li>
+				<li>~100</li>
 			</ul></li>
 			<li><strong>Vocab</strong><ul>
 				<li>200-300</li>
