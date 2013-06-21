@@ -163,7 +163,9 @@
 		<br />
 		<p>Random AMVs:</p>
 		<?php
-			echo 	youtubedd('Title Goes Here (Bakemonogatari)', 'RtjtNrnj4HM').
+			echo 	youtubedd('Sooner than Later (Chihayafuru)', '2CIF9t9gMNw').
+				youtubedd('Externalize (Chihayafuru/mixed)', '09cyrQu5yVA').
+				youtubedd('Title Goes Here (Bakemonogatari)', 'RtjtNrnj4HM').
 				youtubedd('Beautiful Moments (mixed)', 'cKOowKsBVeI').
 				youtubedd('Petal (mixed)', '0CbDV8Rrm6o').
 				youtubedd('Affective Schoolgirls (Nichijou)', '2uHRi67mlsc').
