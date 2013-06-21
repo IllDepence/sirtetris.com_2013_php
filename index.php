@@ -1,3 +1,4 @@
+
 <?php
 	require_once('functions.php');
 	log_visit();
@@ -82,7 +83,8 @@
 </div>
 
 <div id="footer">
-	<a href="http://creativecommons.org/licenses/by-sa/3.0"><img src="img/site/ccbysa.png" alt="CC BY-SA 3.0" title="CC BY-SA 3.0" /></a>
+  <a rel="license" href="http://www.wtfpl.net/txt/copying/" title="DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE"><img src="img/site/wtfpl.png" style="border-style: none;" alt="WTFPL" /></a>
+  <a href="https://github.com/IllDepence/sirtetris.com" title="this website on GitHub"><img src="img/site/github.png" style="border-style: none; margin-right: 10px;" alt="GitHub" /></a>
 </div>
 
 </body>

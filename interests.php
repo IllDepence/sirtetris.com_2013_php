@@ -61,6 +61,7 @@
 			<li><a href="http://www.imabi.net/">IMABI</a> (free, 200+ lessons from beginner over itermediate and advanced up to classical Japanese)</li>
 			<li><a href="http://www.guidetojapanese.org/learn/">Tae Kim's Guide to Learning Japanese</a> (free, with extensive grammar guide)</li>
 			<li><a href="http://www.textfugu.com/">TextFugu</a> (free <em>only</em> up to the point where you'd start learning kanji)</li>
+			<li><a href="http://www.tofugu.com/tag/learning/">Tofugu's writings on learning</a></li>
 		</ul>
 		<p><strong>Tools</strong></p>
 		<ul>
@@ -69,6 +70,7 @@
 			<li><a href="http://www.csse.monash.edu.au/~jwb/cgi-bin/wwwjdic.cgi?1R">Multi-Radical Kanji Search</a></li>
 			<li>more <a href="http://en-to.jp/">Multi-Radical Kanji Search</a></li>
 			<li>Kanji dictionaries: <a href="http://jisho.org/">Denshi Jisho</a>, <a href="http://tangorin.com/">tangorin</a></li>
+			<li>Browser dictionary plugin for <a href="http://rikaichan.mozdev.org/">Firefox</a> and <a href="https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp">Chrome</a></li>
 			<li><a href="http://tatoeba.org/eng/sentences/show_all_in/jpn/eng/none">Example sentences</a></li>
 		</ul>
 		<p><strong>Misc</strong></p>

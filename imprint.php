@@ -13,11 +13,13 @@
 
 	<div class="innercontent_l">
 		<h1>Hyperlinks</h1>
-		<p>I do not assume liability for external content, which is linked on this website. the term <em>external</em> applies to all content that can't be found at <em>//sirtetris.com/...</em></p>
+		<p>I do not assume liability for external content, which is linked on this website. The term <em>external</em> applies to all content that is not directly accessible under the domain <em>sirtetris.com</em>.</p>
 	</div>
 
 	<div class="innercontent_l">
 		<h1>Copyright</h1>
-		<p>This website itself and all provided content is licenced under <a href="http://creativecommons.org/licenses/by-sa/3.0/legalcode">this creative commons licence</a>. To enable a brief overview you can view a simple abstract <a href="http://creativecommons.org/licenses/by-sa/3.0">here</a>.</p>
+		<p>The source code of this website and consequently all textual content a browser renders when displaying it as well as the header image and all images shown in the photography section are under the <a href="http://www.wtfpl.net/txt/copying/">WTFPL</a>.</p>
+		<p>Images and other non textual content found elsewhere on this site may likely be <a href="https://creativecommons.org/">CC</a> licensed and only reused by me or mistakenly used by me without the right to do so. Consider asking before using any of it.</p>
+
 	</div>
 </div>
