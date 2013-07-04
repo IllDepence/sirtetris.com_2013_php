@@ -262,6 +262,15 @@ margin-left: 10px;
 margin-bottom: 10px;
 }
 
+div.imgdropdown {
+height: 40px;
+overflow: hidden;
+}
+
+div.imgdropdown:hover {
+height: 100%;
+}
+
 #inb4mail:after {
 content: "\0040\0067\006D\0061\0069\006C\002E\0063\006F\006D";
 }

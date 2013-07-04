@@ -20,7 +20,7 @@
 		<br />
 		<p>The world is full of interesting things to be discovered, learned, practiced. As one searches for new input, advice from others already into a specific matter can be of great help. Therefore I'd like to share what keeps me moving, learning, living and offer hints and resources for the potentially interested.</p>
 	</div>
-	
+
 	<div class="innercontent_l">
 		<h1>Penspinning</h1>
 		<p><em>Contact juggling with pens!</em></p>
@@ -128,20 +128,36 @@
 	</div>
 	
 	<div class="innercontent_l">
+		<h1>(Urban) Exploration</h1>
+		<p><em>Because it's there.</em></p>
+		<br />
+		<p>To get an idea of what it is about, watch <a href="http://vimeo.com/26200018">Crack The Surface - Episode I</a> and <a href="http://vimeo.com/35626914">Episode II</a>.</p>
+		<p>In short, it is the exploration of man-made stuff. Objects of interest vary as much as reasons to do it I guess. For me, personally, it's about adventure, appreciation and to some extend photography. Sadly though, I only <em>very</em> rarely got around to do it so far.</p>
+		<br />
+		<div class="imgdropdown"><strong>2008 &gt; trains</strong>
+		<img src="img/interests/08_i_like_trains.png" alt="08_i_like_trains.png" /></div>
+		<div class="imgdropdown"><strong>2011 &gt; more trains</strong>
+		<a href="img/interests/11_i_like_trains_full.png" title="fullsize"><img src="img/interests/11_i_like_trains.png" alt="11_i_like_trains.png" /></a></div>
+		<div class="imgdropdown"><strong>2012 &gt; gravel plant</strong>
+		<a href="img/interests/12_gravel_plant_full.png" title="fullsize"><img src="img/interests/12_gravel_plant.png" alt="12_gravel_plant.png" /></a></div>
+	</div>
+	
+	<div class="innercontent_l">
 		<h1>Lock picking</h1>
 		<p><em>Locks are meant to keep honest people honest.</em></p>
 		<br />
 		<p>If you are interested in lock picking you might want to take a look at the <a href="http://lockpickguide.com/support-files/mitguidetolockpick.pdf">MIT Guide to Lock Picking</a>. Also a great start is Schuyler Towne's video series <a href="http://www.youtube.com/playlist?list=PL66CD42F86F3A1F85">Locks: Basic operation and manipulation</a>.</p>
-		<p>Further places to look for interesting content include <a href="http://toool.us/">TOOOL</a> (The Open Organisation Of Lockpickers) and the <a href="https://www.defcon.org/html/links/dc-archives.html">DEF CON Media Archives Portal</a>, where you can find a lot of recorded talks on the subject of lock picking and physical security in general.</p>
+		<p>Further places to look for interesting content include <a href="http://toool.us/">TOOOL</a> (The Open Organisation Of Lockpickers), <a href="http://www.reddit.com/r/lockpicking/">/r/lockpicking</a> and the <a href="https://www.defcon.org/html/links/dc-archives.html">DEF CON Media Archives Portal</a>, where you can find a lot of recorded talks on the subject of lock picking and physical security in general.</p>
 		<br />
-		<p>I only have more or less basic knowledge of lock mechanics and very limited experience in picking locks. But I definitely try to get more into it.</p>
+		<p>I only have more or less basic knowledge of lock mechanics and very limited experience in picking locks. But believe me, it couldn't be any easier to get into it. <a href="img/interests/lockpicking.jpg">Really</a>.</p>
+		<?php echo youtubedd('See?', 'GWj9zMhkurY'); ?>
 	</div>
 	
 	<div class="innercontent_l">
 		<h1>Speedrunning</h1>
 		<p><em>Playing through games quickly, skillfully, and legitimately.</em></p>
 		<br />
-		<img src="img/interests/hl.gif" alt="hf.gif" />
+		<img src="img/interests/agdq.jpg" alt="agdq.jpg" />
 		<br />
 		<p>Concerning what I know about speedruns the place to go is the <a href="http://speeddemosarchive.com/">Speed Demos Archive</a>. If you want to get a general idea of what a speedrun is and what a speedrunner does, take a look at:</p>
 		<?php
@@ -185,7 +201,7 @@ slacklining
 social engineering
 tricking
 typography
-urban exploration</pre>
+urban exploration ✓</pre>
 	</div>
 
 </div>

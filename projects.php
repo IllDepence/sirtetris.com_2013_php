@@ -7,6 +7,18 @@
 			<li><a href="https://github.com/IllDepence/sirtetris.com">sirtetris.com</a></li>
 		</ul>
 	</div>
+
+	<div class="innercontent_r">
+		<h2>Misc</h2>
+		<ul>
+			<li><a href="?a=6a17efc0">DB hidden buttons</a></li>
+			<li><a href="img/projects/ir_remote.png">1.88 € time-lapse</a></li>
+			<ul>
+				<li><a href="?a=d9000c79">blog entry</a></li>
+			</ul>
+			<li><a href="img/projects/lpc.jpg">Link pixel cookies</a></li>
+		</ul>
+	</div>
 </div>
 
 <div id="floatbox_l">
