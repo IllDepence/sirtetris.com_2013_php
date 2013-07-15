@@ -17,6 +17,7 @@
 			<li>Simon</li>
 			<li>Stefan</li>
 			<li>Sunny</li>
+			<li>Tim</li>
 			<li>Tina</li>
 			<li>Vera</li>
 		</ul>
