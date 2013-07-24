@@ -1,6 +1,9 @@
 
 <?php
 	require_once('functions.php');
+	if(preg_match('/<a\s+href="/i', $_SERVER['HTTP_USER_AGENT'])) {
+		die('Dear visitor, your the user agent string your browser sent this server contains an HTML &lt;a&gt; tag. This is a common practice to spam logs with bullshit links. Therefore your access to this page was revoked. If you\'re a normal human visitor not using some funny manipulated user agent string PLEASE try to access this page with another browser to get my contact information and inform me about this error.');
+		}
 	log_visit();
 
 	$navitems = array('blog', 'person', 'interests', 'stuff', 'projects', 'random', 'photography', 'links', 'contact');
