@@ -72,6 +72,7 @@
 			<li>Kanji dictionaries: <a href="http://jisho.org/">Denshi Jisho</a>, <a href="http://tangorin.com/">tangorin</a></li>
 			<li>Browser dictionary plugin for <a href="http://rikaichan.mozdev.org/">Firefox</a> and <a href="https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp">Chrome</a></li>
 			<li><a href="http://tatoeba.org/eng/sentences/show_all_in/jpn/eng/none">Example sentences</a></li>
+			<li><a href="http://moc.sirtetris.com/jlptkanjicheck/">JLPT kanji check</a></li>
 		</ul>
 		<p><strong>Misc</strong></p>
 		<ul>
