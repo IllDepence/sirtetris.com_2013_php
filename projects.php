@@ -2,6 +2,7 @@
 	<div class="innercontent_r">
 		<h2>GitHub</h2>
 		<ul>
+			<li><a href="https://github.com/IllDepence/calyx">calyx</a></li>
 			<li><a href="https://github.com/IllDepence/MALandBots">MALandBots</a></li>
 			<li><a href="https://github.com/IllDepence/jpvoc">jpvoc</a></li>
 			<li><a href="https://github.com/IllDepence/sirtetris.com">sirtetris.com</a></li>
