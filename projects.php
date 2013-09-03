@@ -37,16 +37,16 @@
 		<br />
 		<p>I took three beginner level Japanese courses offered by the language center at my uni in summer semester 2013. Now I work my way though <a href="http://www.guidetojapanese.org/learn/grammar">Tae Kim's Japanese Grammar Guide</a>. To learn new Kanji I utilize "Kanji und Kana" by <a href="http://www.hadamitzky.de/">W. Hadamitzky</a>, Jim Breen's <a href="http://www.csse.monash.edu.au/~jwb/cgi-bin/wwwjdic.cgi?1R">Radical Table for Multi-Radical Selection</a> and my own mnemonics. For valuable feedback from native speakers I write stuff on <a href="http://lang-8.com/">Lang-8</a>.</p>
 		<div class="hr"></div>
-		<h3>Progress <span style="color: #aaa">(last updated: 2013-07-28)</span></h3>
+		<h3>Progress <span style="color: #aaa">(last updated: 2013-09-03)</span></h3>
 		<ul>
 			<li><strong>Kanji</strong><ul>
-				<li>140</li>
+				<li>200</li>
 			</ul></li>
 			<li><strong>Vocab</strong><ul>
-				<li>~300</li>
+				<li>368 Anki notes + all non kanji vocab I know ...</li>
 			</ul></li>
 			<li><strong>Grammar</strong><ul>
-				<li><a href="https://github.com/IllDepence/jpcheatsheets">github.com/IllDepence/jpcheatsheets</a></li>
+				<li><a href="https://github.com/IllDepence/jpcheatsheets">github.com/IllDepence/jpcheatsheets</a> (outdated)</li>
 			</ul></li>
 		</ul>
 	</div>
