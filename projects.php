@@ -49,6 +49,15 @@
 				<li><a href="https://github.com/IllDepence/jpcheatsheets">github.com/IllDepence/jpcheatsheets</a> (outdated)</li>
 			</ul></li>
 		</ul>
+		<div class="hr"></div>
+		<h3>Mnemonic images w/o further explanation</h3>
+		<br />
+		<div class="imgdropdown"><img src="img/projects/uranusbart.png" alt="uranusbart.png" /></div>
+		<div class="imgdropdown"><img src="img/projects/end_and_not_yet.png" alt="end_and_not_yet.png" /></div>
+		<div class="imgdropdown"><img src="img/projects/honorable_ki.png" alt="honorable_ki.png" /></div>
+		<div class="imgdropdown"><img src="img/projects/bakeru.png" alt="bakeru.png" /></div>
+		<div class="imgdropdown"><img src="img/projects/sheep.png" alt="sheep.png" /></div>
+		<div class="imgdropdown"><img src="img/projects/triceratops_cap_mouth_towel.png" alt="triceratops_cap_mouth_towel.png" /></div>
 	</div>
 
 	<div class="innercontent_l">
