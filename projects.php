@@ -52,6 +52,7 @@
 		<div class="hr"></div>
 		<h3>Mnemonic images w/o further explanation</h3>
 		<br />
+		<div class="imgdropdown"><img src="img/projects/ao.png" alt="ao.png" /></div>
 		<div class="imgdropdown"><img src="img/projects/uranusbart.png" alt="uranusbart.png" /></div>
 		<div class="imgdropdown"><img src="img/projects/end_and_not_yet.png" alt="end_and_not_yet.png" /></div>
 		<div class="imgdropdown"><img src="img/projects/honorable_ki.png" alt="honorable_ki.png" /></div>
