@@ -46,6 +46,7 @@
 		<p><a href="http://www.youtube.com/watch?v=LWo3kTYb8W0"><strong>Superstition</strong></a> by QualiaSoup</p>
 		<br />
 		<p><strong>&le; 30 min</strong></p>
+		<p><a href="http://www.ted.com/talks/james_flynn_why_our_iq_levels_are_higher_than_our_grandparents.html"><strong>Why our IQ levels are higher than our grandparents'</strong></a> by James Flynn</p>
 		<p><a href="http://www.ted.com/talks/ed_boyden.html"><strong>A light switch for neurons</strong></a> by Ed Boyden</p>
 		<p><a href="http://www.ted.com/talks/deb_roy_the_birth_of_a_word.html"><strong>The birth of a word</strong></a> by Deb Roy</p>
 		<p><a href="http://www.ted.com/talks/neil_pasricha_the_3_a_s_of_awesome.html"><strong>The 3 A's of awesome</strong></a> by Neil Pasricha</p>

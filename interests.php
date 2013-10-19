@@ -20,28 +20,6 @@
 		<br />
 		<p>The world is full of interesting things to be discovered, learned, practiced. As one searches for new input, advice from others already into a specific matter can be of great help. Therefore I'd like to share what keeps me moving, learning, living and offer hints and resources for the potentially interested.</p>
 	</div>
-
-	<div class="innercontent_l">
-		<h1>Penspinning</h1>
-		<p><em>Contact juggling with pens!</em></p>
-		<br />
-		<img src="img/interests/ps.jpg" alt="ps.jpg" />
-		<br />
-		<p>Getting into penspinning is quite easy. You grab a more or less balanced pen, look at a video tutorial online and practice &mdash; that's it.</p>
-		<p>It is, of course, more fun when you also get involved with the community. The largest international board on the topic of penspinning is the <a href="http://forum.upsb.info/forum.php">UPSB</a>, I guess. Most contries also have their own board/community. Try to look out for gatherings. It's most fun when you meet other spinners in person and talk to them. :)</p>
-		<br />
-		<p>After I started penspinning in 2007 I actively did it &mdash; meaning I really took my time to practice, looked out for new tricks to learn, etc. &mdash; for maybe a year and a half. Since then I only do it casually, barely try or practice new stuff ... but it's still a lot of fun to do it and I don't plan to stop. :)</p>
-		<br />
-		<?php
-			echo "<p><strong>Some of my recordings</strong></p>".
-				youtubedd("BakFall Session", "TyEd9EJdFMk").
-				youtubedd("BakFall Session 2", "dMXm-HU-bhA").
-				youtubedd("BakFall Session 3", "DHDyYK-nPIA").
-				youtubedd("Copy clip", "shhumscxa0s").
-				youtubedd("Freestyle", "mGnMcw7IM9I");
-		?>
-
-	</div>
 	
 	<div class="innercontent_l">
 		<h1>Japanese language</h1>
@@ -65,11 +43,17 @@
 		</ul>
 		<p><strong>Tools</strong></p>
 		<ul>
-			<li><a href="http://lang-8.com/">Lang-8</a> (corrections from native speakers)</li>
-			<li><a href="http://ankisrs.net/">Anki</a> (<a href="https://en.wikipedia.org/wiki/Spaced_repetition">SRS</a> with synchronization and great plugins for Japanese)</li>
+			<li><a href="http://lang-8.com/">Lang-8</a> (corrections from native speakers)
+			</li>
+			<li><a href="http://ankisrs.net/">Anki</a> (<a href="https://en.wikipedia.org/wiki/Spaced_repetition">SRS</a> with synchronization)</li>
+			<ul>
+				<li><a href="https://ankiweb.net/shared/info/3918629684">Japanese Support</a> (plugin)</li>
+				<li><a href="https://github.com/IllDepence/kanjiplot">Linux script for plotting the number of kanji in an Anki deck over time</a></li>
+			</ul>
+			<li><a href="http://newsinslowjapanese.com/home/">News in Slow Japanese</a> (listening practice)</li>
 			<li><a href="http://www.csse.monash.edu.au/~jwb/cgi-bin/wwwjdic.cgi?1R">Multi-Radical Kanji Search</a></li>
 			<li>more <a href="http://en-to.jp/">Multi-Radical Kanji Search</a></li>
-			<li>Kanji dictionaries: <a href="http://jisho.org/">Denshi Jisho</a>, <a href="http://tangorin.com/">tangorin</a></li>
+			<li>Kanji dictionaries: <a href="http://www.tagaini.net/">Tagaini Jisho</a>, <a href="http://tangorin.com/">tangorin</a>, <a href="http://jisho.org/">Denshi Jisho</a></li>
 			<li>Browser dictionary plugin for <a href="http://rikaichan.mozdev.org/">Firefox</a> and <a href="https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp">Chrome</a></li>
 			<li><a href="http://tatoeba.org/eng/sentences/show_all_in/jpn/eng/none">Example sentences</a></li>
 			<li><a href="http://moc.sirtetris.com/jlptkanjicheck/">JLPT kanji check</a></li>
@@ -83,6 +67,28 @@
 		</ul>
 		<br />
 		<p>My personal Japanese progress has it's own place in the <a href="?c=projects">projects section</a>.</p>
+	</div>
+
+	<div class="innercontent_l">
+		<h1>Penspinning</h1>
+		<p><em>Contact juggling with pens!</em></p>
+		<br />
+		<img src="img/interests/ps.jpg" alt="ps.jpg" />
+		<br />
+		<p>Getting into penspinning is quite easy. You grab a more or less balanced pen, look at a video tutorial online and practice &mdash; that's it.</p>
+		<p>It is, of course, more fun when you also get involved with the community. The largest international board on the topic of penspinning is the <a href="http://forum.upsb.info/forum.php">UPSB</a>, I guess. Most contries also have their own board/community. Try to look out for gatherings. It's most fun when you meet other spinners in person and talk to them. :)</p>
+		<br />
+		<p>After I started penspinning in 2007 I actively did it &mdash; meaning I really took my time to practice, looked out for new tricks to learn, etc. &mdash; for maybe a year and a half. Since then I only do it casually, barely try or practice new stuff ... but it's still a lot of fun to do it and I don't plan to stop. :)</p>
+		<br />
+		<?php
+			echo "<p><strong>Some of my recordings</strong></p>".
+				youtubedd("BakFall Session", "TyEd9EJdFMk").
+				youtubedd("BakFall Session 2", "dMXm-HU-bhA").
+				youtubedd("BakFall Session 3", "DHDyYK-nPIA").
+				youtubedd("Copy clip", "shhumscxa0s").
+				youtubedd("Freestyle", "mGnMcw7IM9I");
+		?>
+
 	</div>
 	
 	<div class="innercontent_l">
