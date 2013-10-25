@@ -1,5 +1,14 @@
 <?php
 
+function block_shitheads() {
+	if(preg_match('/<a\s+href="/i', $_SERVER['HTTP_USER_AGENT'])) {
+		die('Dear visitor, the user agent string your browser sent this server contains an HTML &lt;a&gt; tag. This is a common practice to spam logs with bullshit links. Therefore your access to this page was revoked. If you\'re a normal human visitor not using some funny manipulated user agent string PLEASE try to access this page with another browser to get my contact information and inform me about this error.');
+		}
+	if(preg_match('/http:\/\/hand-made-soaps\.com/i', $_SERVER['HTTP_REFERER'])) {
+		die('dear visitor, your the browser appears to have sent this server a fake HTTP referrer. This is a common practice to spam logs with bullshit links. Therefore your access to this page was revoked. If you\'re a normal human visitor not using some funny manipulated user agent string PLEASE try to access this page with another browser to get my contact information and inform me about this error.');
+		}
+	}
+
 function cmp_obj_by_date_attr($a, $b) {
 	$a = intval(str_replace(Array('-',' ',':'), '', $a->date));
 	$b = intval(str_replace(Array('-',' ',':'), '', $b->date));
