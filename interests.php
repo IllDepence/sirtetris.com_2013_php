@@ -23,7 +23,7 @@
 	
 	<div class="innercontent_l">
 		<h1>Japanese language</h1>
-		<p><em>日本語はとてもすごいです！　ヽ(*・ω・)ﾉ</em></p>
+		<p><em>日本語はとてもすごいですよ！　ヽ(*・ω・)ﾉ</em></p>
 		<br />
 		<img src="img/interests/jp.jpg" alt="jp.jpg" />
 		<br />
@@ -60,6 +60,7 @@
 		</ul>
 		<p><strong>Misc</strong></p>
 		<ul>
+			<li><a href="http://unifoundry.com/unifont.html">GNU Unifont</a> (useful for graphemes/radicals)</li>
 			<li><a href="http://learnjapanesepod.com/kana-invaders/">Kana Invaders</a></li>
 			<li><a href="http://www.fengyunzhibo.com/space/japan.htm">Japanese TV</a></li>
 			<li><a href="?a=079cf21f">Kana input without IM</a> (Linux/BSD)</li>

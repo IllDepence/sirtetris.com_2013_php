@@ -35,22 +35,68 @@
 		<br />
 		<img src="img/projects/jp.png" alt="jp.png" />
 		<br />
-		<p>I took three beginner level Japanese courses offered by the language center at my uni in summer semester 2013. Now I work my way though <a href="http://www.guidetojapanese.org/learn/grammar">Tae Kim's Japanese Grammar Guide</a>. To learn new Kanji I utilize "Kanji und Kana" by <a href="http://www.hadamitzky.de/">W. Hadamitzky</a>, <a href="http://www.tagaini.net/">Tagaini Jisho</a> and my own mnemonics. For valuable feedback from native speakers I write stuff on <a href="http://lang-8.com/">Lang-8</a>.</p>
+		<p>I started with three beginner level Japanese courses offered by the language center at my uni. Once they were over I started to continue learning on my own.</p>
 		<div class="hr"></div>
 		<h3>Progress</h3>
 		<br />
 		<img src="img/projects/kanjistats.png" alt="kanjistats.png" />
 		<p>(plotted using <a href="https://github.com/IllDepence/kanjiplot">this script</a>)</p>
-		<!-- <div class="hr"></div>
-		<h3>Mnemonic images w/o further explanation</h3>
+		<div class="hr"></div>
+		<h3>Timeline</h3>
 		<br />
-		<div class="imgdropdown"><img src="img/projects/ao.png" alt="ao.png" /></div>
-		<div class="imgdropdown"><img src="img/projects/uranusbart.png" alt="uranusbart.png" /></div>
-		<div class="imgdropdown"><img src="img/projects/end_and_not_yet.png" alt="end_and_not_yet.png" /></div>
-		<div class="imgdropdown"><img src="img/projects/honorable_ki.png" alt="honorable_ki.png" /></div>
-		<div class="imgdropdown"><img src="img/projects/bakeru.png" alt="bakeru.png" /></div>
-		<div class="imgdropdown"><img src="img/projects/sheep.png" alt="sheep.png" /></div>
-		<div class="imgdropdown"><img src="img/projects/triceratops_cap_mouth_towel.png" alt="triceratops_cap_mouth_towel.png" /></div> -->
+		<table>
+			<tr>
+			<td>13/03/27</td>
+			<td>started taking three beginner level courses offered by the language center at my university</td>
+			</tr>
+			<tr>
+			<td>13/04/14</td>
+			<td>started posting on <a href="http://lang-8.com/588644/">Lang 8</a></td>
+			</tr>
+			<tr>
+			<td>13/05/21</td>
+			<td>started learning kanji with <a href="http://ankisrs.net/">Anki</a></td>
+			</tr>
+			<tr>
+			<td>13/06/18</td>
+			<td><a href="?a=e61bc488">100 kanji</a></td>
+			</tr>
+			<tr>
+			<td>13/07/10</td>
+			<td>finished japanese courses (<a href="https://en.wikipedia.org/wiki/grading_%28education%29#Germany">1.0, 1.0, 1.3</a>)</td>
+			</tr>
+			<tr>
+			<td>13/09/03</td>
+			<td><a href="?a=6a66c49c">200 kanji</a></td>
+			</tr>
+			<tr>
+			<td>13/09/19</td>
+			<td>500 words of vocabulary</td>
+			</tr>
+			<tr>
+			<td>13/10/03</td>
+			<td><a href="?a=51c3029e">300 kanji</a></td>
+			</tr>
+			<tr>
+			<td>13/10/05</td>
+			<td>started my <a href="http://moc.sirtetris.com/grammar_rush/">"grammar rush"</a></td>
+			</tr>
+			<tr>
+			<td>13/11/09</td>
+			<td><a href="?a=82d546f5">400 kanji</a></td>
+			</tr>
+			<tr>
+			<td>13/11/16</td>
+			<td>1000 words of vocabulary</td>
+			</tr>
+			<td>13/11/28</td>
+			<td>finished the <a href="http://moc.sirtetris.com/grammar_rush/">"grammar rush"</a></td>
+			</tr>
+			<tr>
+			<td>13/12/01</td>
+			<td>started a <a href="http://moc.sirtetris.com/re_rush/">"re rush"</a></td>
+			</tr>
+		</table>
 	</div>
 
 	<div class="innercontent_l">
@@ -59,12 +105,12 @@
 		<br />
 		<img src="img/projects/rpi.png" alt="rpi.png" />
 		<br />
-		<p><a href="http://www.raspberrypi.org/">Raspberry Pis</a> are epic! I have three of them. But only one with the awesome Lego case shown above. This one actually is online and can be found by requesting <a href="rpi">sirtetris.com/rpi</a> — you'll be redirected to the current IP it has.</p>
+		<p><a href="http://www.raspberrypi.org/">Raspberry Pis</a> are epic! I have three of them. But only one with the awesome Lego case shown above. This one actually is online and can be reached by requesting <a href="rpi">sirtetris.com/rpi</a> — you'll be redirected to the current IP it has.</p>
 		<br />
 		<p>At the moment there's nothing very interesting to find on it. You'll see the output of the nginx web server running on it. Calling srv/ip/ will echo your IP.</p>
 		<p>I myself use it as 24/7 running irc client, for cronjobs, as a todo list I can reach from everywhere, etc.</p>
 		<br />
-		<p>Until now my Pis ran Arch Linux, Gentoo, FreeBSD and Raspbmc. I really want to try out <a href="http://www.cl.cam.ac.uk/freshers/raspberrypi/tutorials/os/">Baking Pi</a> some time.</p>
+		<p>Until now my Pis ran Arch Linux, Gentoo, FreeBSD, Raspbian and Raspbmc. I really want to try out <a href="http://www.cl.cam.ac.uk/freshers/raspberrypi/tutorials/os/">Baking Pi</a> some time.</p>
 	</div>
 
 	<div class="innercontent_l">

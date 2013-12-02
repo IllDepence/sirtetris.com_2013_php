@@ -71,6 +71,21 @@ margin: 0px 0px 5px 7px;
 list-style-type: none;
 }
 
+table {
+border-collapse: collapse;
+}
+
+th {
+font-weight: bold;
+padding: 2px 4px;
+border: 1px solid #636363;
+}
+
+td {
+padding: 2px 4px;
+border: 1px solid #636363;
+}
+
 #contentbox {
 margin: 0px auto;
 width: 912px;

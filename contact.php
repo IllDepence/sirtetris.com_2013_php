@@ -1,7 +1,7 @@
 <div id="floatbox_r">
 	<div class="innercontent_r">
-		<h2>h2</h2>
-		<p>p</p>
+		<h2>Bitcoin</h2>
+            <p><span  style="font-family: monospace; font-size: 9px;">1PGqsSjdjb5LxeL4L6iLzzGm65QxGsTi1H</span></p>
 	</div>
 </div>
 

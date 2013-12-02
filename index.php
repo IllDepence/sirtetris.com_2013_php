@@ -4,7 +4,7 @@
 	block_shitheads();
 	log_visit();
 
-	$navitems = array('blog', 'person', 'interests', 'stuff', 'projects', 'random', 'photography', 'links', 'contact');
+	$navitems = array('blog', 'person', 'interests', 'stuff', 'projects', 'links', 'contact');
 	$validcontent = array_merge($navitems, array('el', 'imprint'));
 	$valid = 0;
 	if(isset($_GET['c'])) {
