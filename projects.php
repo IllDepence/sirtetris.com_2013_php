@@ -96,6 +96,10 @@
 			<td>13/12/01</td>
 			<td>started a <a href="http://moc.sirtetris.com/re_rush/">"re rush"</a></td>
 			</tr>
+			<tr>
+			<td>13/12/10</td>
+			<td><a href="?a=7b41827f">500 kanji</a> and 100 entries on <a href="http://lang-8.com/">Lang-8</a></td>
+			</tr>
 		</table>
 	</div>
 
@@ -123,7 +127,7 @@
 		<br />
 		<p>Technology wise I went from HTML 4.01 over XHTML 1.0 strict to HTML 5; from no server-side scriptig to PHP; from no database over MySQL to simple JSON files; from no over mandatory to supplemental JavaScript.</p>
 		<br />
-		<p>Concerning content: photography was always there, then followed self description and interests and later a blog and links. Other stuff like downloads, a page on open source, etc. comes and goes.</p>
+		<p>Content changes over time as do my interests.</p>
 		<br />
 		<p>Since April 2013 the code of this website is maintained on <a href="https://github.com/IllDepence/sirtetris.com">GitHub</a>.</p>
 	</div>

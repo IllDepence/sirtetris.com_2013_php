@@ -18,7 +18,7 @@
 
 	<div class="innercontent_l">
 		<h1>Copyright</h1>
-		<p>The source code of this website and consequently all textual content a browser renders when displaying it as well as the header image and all images shown in the photography section are under the <a href="http://www.wtfpl.net/txt/copying/">WTFPL</a>.</p>
+		<p>The source code of this website and consequently all textual content a browser renders when displaying it as well as the header image are under the <a href="http://www.wtfpl.net/txt/copying/">WTFPL</a>.</p>
 		<p>Images and other non textual content found elsewhere on this site may likely be <a href="https://creativecommons.org/">CC</a> licensed and only reused by me or mistakenly used by me without the right to do so. Consider asking before using any of it.</p>
 
 	</div>

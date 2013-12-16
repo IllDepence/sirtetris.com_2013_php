@@ -1,7 +1,9 @@
 <div id="floatbox_r">
 	<div class="innercontent_r">
-		<h2>Bitcoin</h2>
+		<h2>BTC</h2>
             <p><span  style="font-family: monospace; font-size: 9px;">1PGqsSjdjb5LxeL4L6iLzzGm65QxGsTi1H</span></p>
+		<h2>LTC</h2>
+            <p><span  style="font-family: monospace; font-size: 9px;">LUHqiyHCxGdr7VV7rfnp1YSBekbuKxrRXf</span></p>
 	</div>
 </div>
 
