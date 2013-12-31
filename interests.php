@@ -59,6 +59,23 @@
             <li><a href="http://moc.sirtetris.com/jlptkanjicheck/">JLPT kanji check</a></li>
             <li><a href="http://moc.sirtetris.com/enlargeJapanese.user.js">minimum font size for Japanese text</a> (user script)</li>
         </ul>
+        <p><strong>Jvloggers (mostly)</strong></p>
+        <ul>
+            <li><a href="https://www.youtube.com/user/Gimmeaflakeman">Gimmeaflakeman</a></li>
+            <li><a href="https://www.youtube.com/user/MyHusbandisJapanese">Rachel & Jun</a></li>
+            <li><a href="https://www.youtube.com/user/Ciaela">ミカエラ</a> / <a href="https://www.youtube.com/user/mikaeradesu">Micaela Braithwaite</a></li>
+            <li><a href="https://www.youtube.com/user/bowietomo0803">tomoko tomoko</a></li>
+            <li><a href="https://www.youtube.com/user/BusanKevin">BusanKevin</a> / <a href="https://www.youtube.com/user/jlandkev">jlandkev</a></li>
+            <li><a href="https://www.youtube.com/user/Hikosaemon">Hikosaemon</a></li>
+            <li><a href="https://www.youtube.com/user/mimei">mimei</a></li>
+            <li><a href="https://www.youtube.com/user/kemushichan">KemushiChan</a></li>
+            <li><a href="https://www.youtube.com/user/yesjapan">YesJapan</a></li>
+            <li><a href="https://www.youtube.com/user/googlejapan">Google Japan</a></li>
+            <li><a href="https://www.youtube.com/user/kanadajin3">kanadajin3</a></li>
+            <li><a href="https://www.youtube.com/user/tofugu">Tofugu</a></li>
+            <li><a href="https://www.youtube.com/user/japanascope">Ryan Boundless</a></li>
+            <li><a href="https://www.youtube.com/user/tanaken1712">棚剣の実況ch</a></li>
+        </ul>
         <p><strong>Misc</strong></p>
         <ul>
             <li><a href="http://unifoundry.com/unifont.html">GNU Unifont</a> (useful for graphemes/radicals)</li>

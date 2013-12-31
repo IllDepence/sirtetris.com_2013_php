@@ -1,9 +1,11 @@
 <div id="floatbox_r">
 	<div class="innercontent_r">
 		<h2>BTC</h2>
-            <p><span  style="font-family: monospace; font-size: 9px;">1PGqsSjdjb5LxeL4L6iLzzGm65QxGsTi1H</span></p>
+            <p><span  style="font-family: monospace; font-size: 9px;">1PGqsSjdjb5LxeL4L6iLzzGm65QxGsTi1H</span><br /><br /></p>
 		<h2>LTC</h2>
-            <p><span  style="font-family: monospace; font-size: 9px;">LUHqiyHCxGdr7VV7rfnp1YSBekbuKxrRXf</span></p>
+            <p><span  style="font-family: monospace; font-size: 9px;">LUHqiyHCxGdr7VV7rfnp1YSBekbuKxrRXf</span><br /><br /></p>
+		<h2>DOGE</h2>
+            <p><span  style="font-family: monospace; font-size: 9px;">DCBZu7SZEQzVhNwiv9bdiSEiZPnoWqXX3S</span></p>
 	</div>
 </div>
 

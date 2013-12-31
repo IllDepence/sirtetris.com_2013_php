@@ -100,6 +100,14 @@
 			<td>13/12/10</td>
 			<td><a href="?a=7b41827f">500 kanji</a> and 100 entries on <a href="http://lang-8.com/">Lang-8</a></td>
 			</tr>
+			<tr>
+			<td>13/12/24</td>
+			<td>started skyping with Japanese people</td>
+			</tr>
+			<tr>
+			<td>13/12/30</td>
+			<td>finished the <a href="http://moc.sirtetris.com/re_rush/">"re rush"</a></td>
+			</tr>
 		</table>
 	</div>
 
