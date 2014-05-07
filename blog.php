@@ -114,7 +114,7 @@ if(!$permalink) {
 	echo '<div class="innercontent_b" style="text-align: center; padding: 0px;">'.
 			($currpage < $num_pages ? '<a href="?c=blog&amp;p='.$prevpage.'" title="older enties"><div class="blog_nav blog_nav_hover"><p>&laquo;</p></div></a>' : '<div class="blog_nav"><p>&laquo;</p></div>').
 			'<div class="blog_nav" style="width: 50%;"><p>';
-	for($i=$num_pages; $i>0; $i--) echo ($i!=$currpage ? '<a href="?content=blog&amp;p='.$i.'" title="jump to page '.$i.'">'.$i.($i>1 ? ' ' : '').'</a>' : $i.($i>1 ? ' ' : ''));
+	for($i=$num_pages; $i>0; $i--) echo ($i!=$currpage ? '<a href="?c=blog&amp;p='.$i.'" title="jump to page '.$i.'">'.$i.($i>1 ? ' ' : '').'</a>' : $i.($i>1 ? ' ' : ''));
 	echo		'</p></div>'.
 			($currpage > 1 ? '<a href="?c=blog&amp;p='.$nextpage.'" title="newer enties"><div class="blog_nav blog_nav_hover"><p>&raquo;</p></div></a>' : '<div class="blog_nav"><p>&raquo;</p></div>').
 		'</div>';

@@ -23,21 +23,24 @@
 
     <div class="innercontent_l">
         <h1 id="japanese">Japanese language</h1>
-        <p><em>日本語はとてもすごいですよ！　ヽ(*・ω・)ﾉ</em></p>
+        <p><em>日本語はとても凄いですよ！　ヽ(*・ω・)ﾉ</em></p>
         <br />
         <img src="img/interests/jp.jpg" alt="jp.jpg" />
         <br />
-        <p>Prepare to face three different, partly redundant, simultaneously used scripts; characters made up of more than 20 strokes and various ways to read and interpret them depending on their current context; and over 30 (!!!) individual ways to count things, each assiciated with a group of things it's used for.</p>
+        <p>Prepare to face three different, partly redundant, simultaneously used scripts; characters made up of more than 20 strokes and various ways to read and interpret them depending on their current context; and over 30 (!!!) common, individual ways to count things, each assiciated with a group of things it's used for.</p>
         <br />
         <p><strong>Overview</strong></p>
         <ul>
             <li><a href="http://www.reddit.com/r/LearnJapanese/">/r/LearnJapanese</a>'s <a href="http://www.reddit.com/r/LearnJapanese/wiki/index">wiki</a></li>
             <li><a href="http://www.tofugu.com/2010/04/06/tofugu-100-best-japanese-learning-resources/">Tofugu’s 100 Best Resources For Learning Japanese</a></li>
+            <li><a href="http://www.sljfaq.org/afaq/afaq.html">Japanese FAQ</a> (from the usenet newsgroup sci.lang.japan)</li>
+            <li><a href="http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency">all japanese all the time TOC</a></li>
         </ul>
         <p><strong>Guides</strong></p>
         <ul>
-            <li><a href="http://www.imabi.net/">IMABI</a> (free, 200+ lessons from beginner over itermediate and advanced up to classical Japanese)</li>
             <li><a href="http://www.guidetojapanese.org/learn/">Tae Kim's Guide to Learning Japanese</a> (free, with extensive grammar guide)</li>
+            <li><a href="http://www.imabi.net/">IMABI</a> (free, 200+ lessons from beginner over itermediate and advanced up to classical Japanese)</li>
+            <li><a href="http://grammar.nihongoresources.com/">The Nihongoresources Grammar Book</a> (free, extensive grammar guide)</li>
             <li><a href="http://www.textfugu.com/">TextFugu</a> (free <em>only</em> up to the point where you'd start learning kanji)</li>
             <li><a href="http://www.tofugu.com/tag/learning/">Tofugu's writings on learning</a></li>
         </ul>
@@ -48,7 +51,8 @@
             <li><a href="http://ankisrs.net/">Anki</a> (<a href="https://en.wikipedia.org/wiki/Spaced_repetition">SRS</a> with synchronization)</li>
             <ul>
                 <li><a href="https://ankiweb.net/shared/info/3918629684">Japanese Support</a> (plugin)</li>
-                <li><a href="https://github.com/IllDepence/kanjiplot">Linux script for plotting the number of kanji in an Anki deck over time</a></li>
+                <li><a href="https://github.com/IllDepence/kanjiplot">Script for plotting the number of kanji in an Anki deck over time</a></li>
+                <li><a href="https://github.com/IllDepence/findvocab">Script for finding new useful vocab based on frequency lists</a></li>
             </ul>
             <li><a href="http://newsinslowjapanese.com/home/">News in Slow Japanese</a> (listening practice)</li>
             <li><a href="http://www.csse.monash.edu.au/~jwb/cgi-bin/wwwjdic.cgi?1R">Multi-Radical Kanji Search</a></li>
@@ -59,20 +63,23 @@
             <li><a href="http://moc.sirtetris.com/jlptkanjicheck/">JLPT kanji check</a></li>
             <li><a href="http://moc.sirtetris.com/enlargeJapanese.user.js">minimum font size for Japanese text</a> (user script)</li>
         </ul>
-        <p><strong>Jvloggers (mostly)</strong></p>
+        <p><strong>YouTube</strong></p>
         <ul>
-            <li><a href="https://www.youtube.com/user/Gimmeaflakeman">Gimmeaflakeman</a></li>
+            <li><a href="https://www.youtube.com/user/Gimmeaflakeman">Gimmeaflakeman</a> / <a href="https://www.youtube.com/gimmeabreakman">Gimmeabreakman</a></li>
+            <li><a href="https://www.youtube.com/user/Hikosaemon">Hikosaemon</a></li>
             <li><a href="https://www.youtube.com/user/MyHusbandisJapanese">Rachel & Jun</a></li>
-            <li><a href="https://www.youtube.com/user/Ciaela">ミカエラ</a> / <a href="https://www.youtube.com/user/mikaeradesu">Micaela Braithwaite</a></li>
+            <li><a href="https://www.youtube.com/user/ARIORALI">ARI OR ALI</a> / <a href="https://www.youtube.com/user/ARIKEITA113">Ari Keita</a></li>
+            <li><a href="https://www.youtube.com/user/freejapaneselessons3">nihongonomori joey</a></li>
             <li><a href="https://www.youtube.com/user/bowietomo0803">tomoko tomoko</a></li>
             <li><a href="https://www.youtube.com/user/BusanKevin">BusanKevin</a> / <a href="https://www.youtube.com/user/jlandkev">jlandkev</a></li>
-            <li><a href="https://www.youtube.com/user/Hikosaemon">Hikosaemon</a></li>
+            <li><a href="https://www.youtube.com/user/Ciaela">ミカエラ</a> / <a href="https://www.youtube.com/user/mikaeradesu">Micaela Braithwaite</a></li>
+            <li><a href="https://www.youtube.com/user/TheJapanChannelDcom">TheJapanChannelDcom</a></li>
             <li><a href="https://www.youtube.com/user/mimei">mimei</a></li>
             <li><a href="https://www.youtube.com/user/kemushichan">KemushiChan</a></li>
             <li><a href="https://www.youtube.com/user/yesjapan">YesJapan</a></li>
             <li><a href="https://www.youtube.com/user/googlejapan">Google Japan</a></li>
-            <li><a href="https://www.youtube.com/user/kanadajin3">kanadajin3</a></li>
             <li><a href="https://www.youtube.com/user/tofugu">Tofugu</a></li>
+            <li><a href="https://www.youtube.com/user/kanadajin3">kanadajin3</a></li>
             <li><a href="https://www.youtube.com/user/japanascope">Ryan Boundless</a></li>
             <li><a href="https://www.youtube.com/user/tanaken1712">棚剣の実況ch</a></li>
         </ul>
@@ -83,6 +90,7 @@
             <li><a href="http://www.fengyunzhibo.com/space/japan.htm">Japanese TV</a></li>
             <li><a href="?a=079cf21f">Kana input without IM</a> (Linux/BSD)</li>
             <li><a href="http://youtu.be/pFyKE5zPDQM">Kanji handwriting with a graphic tablet</a></li>
+            <li>Wallpaper for <a href="img/interests/dates_anime.png">dates</a>, <a href="img/interests/time_anime.png">time</a>, <a href="img/interests/timespans_anime.png">timespans</a>, <a href="img/interests/casuals_anime.png">casual grammar</a></li>
         </ul>
         <br />
         <p>My personal Japanese progress has it's own place in the <a href="?c=projects">projects section</a>.</p>

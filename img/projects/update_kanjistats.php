@@ -1,18 +1,20 @@
 <?php
 
 require_once('/homez.151/sirtetri/www/keys.php');
+$valid_files = array('output.png','kanji.dat');
+$fn = $_FILES['data']['name'];
 
-if (($_FILES['statsimg']['name'] == 'output.png') && ($_POST['token'] == $stats_token)) {
-	if ($_FILES['statsimg']['error'] > 0) {
-		echo 'Return Code: '.$_FILES['statsimg']['error'];
-		}
-	else {
-		move_uploaded_file($_FILES['statsimg']['tmp_name'], getcwd().'/kanjistats.png');
-		echo 'Done';
-		}
-	}
+if (in_array($fn, $valid_files) && ($_POST['token'] == $stats_token)) {
+    if ($_FILES['data']['error'] > 0) {
+        echo 'Return Code: '.$_FILES['data']['error'];
+        }
+    else {
+        move_uploaded_file($_FILES['data']['tmp_name'], getcwd().'/'.$fn);
+        echo 'Done '.$fn;
+        }
+    }
 else {
-	echo 'Invalid file or key';
-	}
+    echo 'Invalid file or key';
+    }
 
-?> 
+?>

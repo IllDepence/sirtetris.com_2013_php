@@ -1,0 +1,34 @@
+.line path {
+  fill: none;
+  stroke-width: 1px;
+}
+.axis {
+  shape-rendering: crispEdges;
+}
+.y.axis line, .y.axis path, .x.axis line, .x.axis path {
+  fill: none;
+  stroke: #000;
+}
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+.focus line {
+  fill: none;
+  stroke-width: 1px;
+  stroke: #aaa;
+  shape-rendering: crispEdges;
+  opacity: 0.5;
+}
+.words {
+  stroke: #e04646 !important;
+  }
+.kanji {
+  stroke: #0060ad !important;
+  }
+.wordstext {
+  fill: #e04646;
+  }
+.kanjitext {
+  fill: #0060ad;
+  }
