@@ -155,7 +155,7 @@
         <p>If you're lucky enough to be able to enjoy anime you're likely to be oversupplied with amazing series and movies for like ... ever.</p>
         <br />
         <h3>Web</h3>
-        <p><a href="http://digitalnippon.de/">Digital Nippon</a> (German), <a href="http://myanimelist.net/">MyAnimeList</a>, <a href="http://anidb.net/">AniDB</a>, <a href="http://www.mahou.org/Showtime/?o=ET">showtimes</a>, <a href="http://www.zerochan.net/">zerochan</a>, <a href="http://www.pixiv.net/">pivix</a>, ...</p>
+        <p><a href="http://digitalnippon.de/">Digital Nippon</a> (German), <a href="http://anilist.co/">AL</a>/<a href="http://hummingbird.me/">HB</a>/<a href="http://myanimelist.net/">MAL</a>, <a href="http://anidb.net/">AniDB</a>, <a href="http://www.zerochan.net/">zerochan</a>, <a href="http://www.pixiv.net/">pivix</a>, ...</p>
         <br />
         <h3>Recommentations</h3>
         <p>Works of Hayao Miyazaki and Satoshi Kon, Akira, Serial Experiments Lain, Kino no Tabi, Mahou Shoujo Madoka Magica, Usagi Drop, Bakemonogatari.</p>
@@ -163,16 +163,18 @@
         <h3>AMVs</h3>
         <p>Best sources quality AMVs: <a href="http://amvnews.ru/">amvnews.ru</a> and the <a href="http://www.animemusicvideos.org/forum/viewforum.php?f=41">Recommended AMVs</a> subforum on animemusicvideos.org.</p>
         <br />
-        <p>Random AMVs:</p>
+        <p>Example AMVs:</p>
         <?php
             echo youtubedd('Sooner than Later (Chihayafuru)', '2CIF9t9gMNw').
                 youtubedd('Externalize (Chihayafuru/mixed)', '09cyrQu5yVA').
                 youtubedd('Title Goes Here (Bakemonogatari)', 'RtjtNrnj4HM').
+                youtubedd('The Strike Witches 2.0 (Strike Witches)', 'c4cZHkCk_Zo').
                 youtubedd('Beautiful Moments (mixed)', 'cKOowKsBVeI').
                 youtubedd('Petal (mixed)', '0CbDV8Rrm6o').
                 youtubedd('Affective Schoolgirls (Nichijou)', '2uHRi67mlsc').
                 youtubedd('Ivy Bridge (Usagi Drop)', 'ouHzuo8kook').
                 youtubedd('Binary Overdrive (Genius Party Beyond - Dimension Bomb)', 'QwMSemZX81U').
+                youtubedd('Distant Echo (mixed)', 'nVMPiEilNm4').
                 youtubedd('Libero Arbitrio (Neon Genesis Evangeloin)', 'OU7Fg9c0QFE').
                 youtubedd('The breath of spring (Bakemonogatari)', 'hzQ2DEB0IEo').
                 youtubedd('Flexing Habitual (Bakemonogatari)', 'HvQdz5Za-9o').

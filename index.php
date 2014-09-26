@@ -64,10 +64,6 @@
 
 <div id="headbox">
     <div id="innerheadbox">
-    <?php
-        $label_prop = array('USER AGENT' => 'HTTP_USER_AGENT', 'IP ADDRESS' => 'REMOTE_ADDR', 'REFERER' => 'HTTP_REFERER', 'QUERY' => 'QUERY_STRING');
-        foreach($label_prop as $l => $p) echo '&gt; '.$l.': '.((isset($_SERVER[$p]) && $_SERVER[$p] != '') ? '<span>'.$_SERVER[$p].'</span>' : '<span><em>empty</em></span>').'<br />';
-    ?>
     </div>
     <div id="navbox">
     <?php

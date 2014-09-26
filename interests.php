@@ -60,6 +60,7 @@
             <li>Kanji dictionaries: <a href="http://www.tagaini.net/">Tagaini Jisho</a>, <a href="http://tangorin.com/">tangorin</a>, <a href="http://jisho.org/">Denshi Jisho</a></li>
             <li>Browser dictionary plugin for <a href="http://rikaichan.mozdev.org/">Firefox</a> and <a href="https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp">Chrome</a></li>
             <li><a href="http://tatoeba.org/eng/sentences/show_all_in/jpn/eng/none">Example sentences</a></li>
+            <li><a href="http://www.kanjitomo.net/">KanjiTomo</a> (identify Japanese characters from images)</li>
             <li><a href="http://moc.sirtetris.com/jlptkanjicheck/">JLPT kanji check</a></li>
             <li><a href="http://moc.sirtetris.com/enlargeJapanese.user.js">minimum font size for Japanese text</a> (user script)</li>
         </ul>
@@ -68,19 +69,18 @@
             <li><a href="https://www.youtube.com/user/Gimmeaflakeman">Gimmeaflakeman</a> / <a href="https://www.youtube.com/gimmeabreakman">Gimmeabreakman</a></li>
             <li><a href="https://www.youtube.com/user/Hikosaemon">Hikosaemon</a></li>
             <li><a href="https://www.youtube.com/user/MyHusbandisJapanese">Rachel & Jun</a></li>
-            <li><a href="https://www.youtube.com/user/ARIORALI">ARI OR ALI</a> / <a href="https://www.youtube.com/user/ARIKEITA113">Ari Keita</a></li>
             <li><a href="https://www.youtube.com/user/freejapaneselessons3">nihongonomori joey</a></li>
             <li><a href="https://www.youtube.com/user/bowietomo0803">tomoko tomoko</a></li>
+            <li><a href="https://www.youtube.com/user/tofugu">Tofugu</a></li>
+            <li><a href="https://www.youtube.com/user/japanascope">Ryan Boundless</a></li>
             <li><a href="https://www.youtube.com/user/BusanKevin">BusanKevin</a> / <a href="https://www.youtube.com/user/jlandkev">jlandkev</a></li>
-            <li><a href="https://www.youtube.com/user/Ciaela">ミカエラ</a> / <a href="https://www.youtube.com/user/mikaeradesu">Micaela Braithwaite</a></li>
-            <li><a href="https://www.youtube.com/user/TheJapanChannelDcom">TheJapanChannelDcom</a></li>
+            <li><a href="https://www.youtube.com/user/ARIORALI">ARI OR ALI</a> / <a href="https://www.youtube.com/user/ARIKEITA113">Ari Keita</a></li>
             <li><a href="https://www.youtube.com/user/mimei">mimei</a></li>
             <li><a href="https://www.youtube.com/user/kemushichan">KemushiChan</a></li>
             <li><a href="https://www.youtube.com/user/yesjapan">YesJapan</a></li>
+            <li><a href="https://www.youtube.com/user/TheJapanChannelDcom">TheJapanChannelDcom</a></li>
             <li><a href="https://www.youtube.com/user/googlejapan">Google Japan</a></li>
-            <li><a href="https://www.youtube.com/user/tofugu">Tofugu</a></li>
-            <li><a href="https://www.youtube.com/user/kanadajin3">kanadajin3</a></li>
-            <li><a href="https://www.youtube.com/user/japanascope">Ryan Boundless</a></li>
+            <li><a href="https://www.youtube.com/user/Ciaela">ミカエラ</a> / <a href="https://www.youtube.com/user/mikaeradesu">Micaela Braithwaite</a></li>
             <li><a href="https://www.youtube.com/user/tanaken1712">棚剣の実況ch</a></li>
         </ul>
         <p><strong>Misc</strong></p>
@@ -90,7 +90,7 @@
             <li><a href="http://www.fengyunzhibo.com/space/japan.htm">Japanese TV</a></li>
             <li><a href="?a=079cf21f">Kana input without IM</a> (Linux/BSD)</li>
             <li><a href="http://youtu.be/pFyKE5zPDQM">Kanji handwriting with a graphic tablet</a></li>
-            <li>Wallpaper for <a href="img/interests/dates_anime.png">dates</a>, <a href="img/interests/time_anime.png">time</a>, <a href="img/interests/timespans_anime.png">timespans</a>, <a href="img/interests/casuals_anime.png">casual grammar</a></li>
+            <li>Wallpaper for <a href="img/interests/dates_anime.png">dates</a>, <a href="img/interests/time_anime.png">time</a>, <a href="img/interests/timespans_anime.png">timespans</a>, <a href="img/interests/casuals_anime.png">casual grammar</a>, <a href="img/interests/indefinite_pronouns_anime.png">indefinite pronouns</a></li>
         </ul>
         <br />
         <p>My personal Japanese progress has it's own place in the <a href="?c=projects">projects section</a>.</p>
@@ -156,7 +156,7 @@
         <p>Most keyboards today are so called <a href="http://deskthority.net/wiki/Rubber_dome">rubber dome</a> or <a href="http://deskthority.net/wiki/Scissor_switch">scissor switch</a> keyboards. They're cheap to produce and do their job. There are, however, other types of keyboards which in general are referred to as <em>mechanical keyboards</em>.</p>
     <br />
     <p>The exact mechanisms of how mechanical keyboard switches work differ from each other. In most cases the switches of one vendor have colored stems which give them their name and indicate their tactile and acoustic behaviour. More information can be found in the <a href="http://deskthority.net/wiki/Category:Keyboard_switches">deskthority wiki</a>.</p>
-    <p>The reason for most people to use a mechanical keyboard is the higher quality and durability, the fact that you can choose a swich type that fits your "taste" the best and generally the more comfortable feeling when typing. If you're interested in the topic be sure to check out <a href="http://geekhack.org/">geekhack.org</a> and <a href="http://deskthority.net/">deskthority.net</a>.</p>
+    <p>The reason for most people to use a mechanical keyboard is the higher quality and durability, the fact that you can choose a swich type that fits your "taste" the best and generally the more comfortable feeling when typing. If you're interested in the topic be sure to check out  <a href="http://deskthority.net/">deskthority.net</a>, <a href="http://www.reddit.com/r/MechanicalKeyboards/">/r/MechanicalKeyboards</a> and <a href="http://geekhack.org/">geekhack.org</a>.</p>
     <br />
     <p>I myself use a KBC Poker with Cherry MX Blue switches as primary keyboard (the one on top on the picture above) and I also own a Leopold FC500RT/AB with MX Browns (middle) as well as a SteelSeries 7G with MX Blacks (bottom).</p>
     </div>

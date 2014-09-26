@@ -26,9 +26,14 @@
 .kanji {
   stroke: #0060ad !important;
   }
+.rate {
+  stroke: #666 !important;
+  }
 .wordstext {
   fill: #e04646;
   }
 .kanjitext {
   fill: #0060ad;
   }
+.secondary {
+  opacity: 0.25;

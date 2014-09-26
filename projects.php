@@ -63,7 +63,7 @@
             </tr>
             <tr>
             <td>13/07/10</td>
-            <td>finished beginner level courses (<a href="https://en.wikipedia.org/wiki/grading_%28education%29#Germany">1.0, 1.0, 1.3</a>)</td>
+            <td>finished beginner level courses (<a href="https://en.wikipedia.org/wiki/Grading_systems_by_country#Germany">1.0, 1.0, 1.3</a>)</td>
             </tr>
             <tr>
             <td>13/09/03</td>
@@ -128,6 +128,25 @@
             <td>14/03/18</td>
             <td><a href="?a=26ea4c37">800 kanji</a></td>
             </tr>
+            <tr>
+            <td>14/05/07</td>
+            <td><a href="?a=53833ada">900 kanji</a></td>
+            </tr>
+            <tr>
+            <td>14/06/28</td>
+            <td><a href="?a=62f53ec0">1000 kanji</a></td>
+            </tr>
+            <td>14/08/08</td>
+            <td><a href="?a=412c3df8">1100 kanji</a></td>
+            </tr>
+            </tr>
+            <tr>
+            <td>14/08/23</td>
+            <td>3000 words vocabulary</td>
+            </tr>
+            <td>14/09/11</td>
+            <td><a href="?a=49fc37e4">1200 kanji</a></td>
+            </tr>
         </table>
     </div>
 
@@ -137,12 +156,7 @@
         <br />
         <img src="img/projects/rpi.png" alt="rpi.png" />
         <br />
-        <p><a href="http://www.raspberrypi.org/">Raspberry Pis</a> are epic! I have three of them. But only one with the awesome Lego case shown above. This one actually is online and can be reached by requesting <a href="rpi">sirtetris.com/rpi</a> — you'll be redirected to the current IP it has.</p>
-        <br />
-        <p>At the moment there's nothing very interesting to find on it. You'll see the output of the nginx web server running on it. Calling srv/ip/ will echo your IP.</p>
-        <p>I myself use it as 24/7 running irc client, for cronjobs, as a todo list I can reach from everywhere, etc.</p>
-        <br />
-        <p>Until now my Pis ran Arch Linux, Gentoo, FreeBSD, Raspbian and Raspbmc. I really want to try out <a href="http://www.cl.cam.ac.uk/freshers/raspberrypi/tutorials/os/">Baking Pi</a> some time.</p>
+        <p><a href="http://www.raspberrypi.org/">Raspberry Pis</a>! But tbh ... I just want to show off my awesome lego case. :3 Until now my Pis ran Arch Linux, Gentoo, FreeBSD, Raspbian and Raspbmc. I really want to try out <a href="http://www.cl.cam.ac.uk/freshers/raspberrypi/tutorials/os/">Baking Pi</a> some time.</p>
     </div>
 
     <div class="innercontent_l">
@@ -151,23 +165,8 @@
         <br />
         <img src="img/projects/websites.png" alt="websites.png" />
         <br />
-        <p>Started doing this in 2005.</p>
-        <br />
-        <p>Technology wise I went from HTML 4.01 over XHTML 1.0 strict to HTML 5; from no server-side scriptig to PHP; from no database over MySQL to simple JSON files; from no over mandatory to supplemental JavaScript.</p>
-        <br />
-        <p>Content changes over time as do my interests.</p>
-        <br />
-        <p>Since April 2013 the code of this website is maintained on <a href="https://github.com/IllDepence/sirtetris.com">GitHub</a>.</p>
+        <p>Started doing this in 2005. Content changes over time as do my interests.</p>
     </div>
-
-    <!--<div class="innercontent_l">
-        <h1>BitLocker Disk Label Changer</h1>
-        <p><em>foo</em></p>
-        <br />
-        <img src="" alt="bldlc.png" />
-        <br />
-        <p>bar</p>
-    </div>-->
 </div>
 <script>
 document.querySelector('#graph').innerHTML='';
@@ -196,7 +195,8 @@ function refub(data) {
     return {
         date: parseDate(data[0]),
         kanji: data[1],
-        words: data[2]
+        words: data[2],
+        rate: data[3]
         }
     }
 function parseData(rows) {
@@ -207,13 +207,18 @@ function show(data) {
     x.domain(d3.extent(data, function(d) { return d.date; }));
     var wmax = d3.max(data.map(function(data) { return +data.words }))
     var kmax = d3.max(data.map(function(data) { return +data.kanji }))
-    y.domain([0, wmax]);
+    var rmax = d3.max(data.map(function(data) { return +data.rate }))
+    y0.domain([0, wmax]);
+    y1.domain([0, rmax]);
     var kline = d3.svg.line()
                       .x(function(d) { return x(d.date); })
-                      .y(function(d) { return y(d.kanji); });
+                      .y(function(d) { return y0(d.kanji); });
     var wline = d3.svg.line()
                       .x(function(d) { return x(d.date); })
-                      .y(function(d) { return y(d.words); });
+                      .y(function(d) { return y0(d.words); });
+    var rline = d3.svg.line()
+                      .x(function(d) { return x(d.date); })
+                      .y(function(d) { return y1(d.rate); });
     svg.append('g')
        .attr('class', 'x axis')
        .attr('transform', 'translate(0,' + height + ')')
@@ -226,7 +231,17 @@ function show(data) {
     svg.append('g')
        .attr('class', 'y axis')
        .attr('transform', 'translate(' + width + ', 0)')
-       .call(yAxis)
+       .call(yAxisRight);
+    svg.append('g')
+       .attr('class', 'y axis secondary')
+       .attr('transform', 'translate(0, ' + height + ')')
+       .attr('transform', 'rotate(90)')
+       .call(yAxisLeft)
+       .selectAll('text')
+         .style('text-anchor', 'end')
+         .attr('transform', 'rotate(-90)')
+         .attr('dy', '-5px')
+         .attr('dx', '-9px');
     var line = svg.append('g')
                   .attr('class', 'line')
     line.append('path')
@@ -235,6 +250,9 @@ function show(data) {
     line.append('path')
         .attr('class', 'words')
         .attr('d', wline(data));
+    line.append('path')
+        .attr('class', 'rate secondary')
+        .attr('d', rline(data));
     var focus = svg.append('g')
                    .attr('class', 'focus')
                    .style('display', 'none');
@@ -256,7 +274,12 @@ function show(data) {
                   .attr('x', 22)
                   .attr('y', 32)
                   .attr('class', 'kanjitext')
-                  .text('kanji ' + kmax);
+                  .text('kanji: ' + kmax);
+    var valr = svg.append('text')
+                  .attr('x', 22)
+                  .attr('y', 49)
+                  .attr('class', 'secondary')
+                  .text('kanji/month: -');
     svg.append('rect')
        .attr('class', 'overlay')
        .attr('width', width)
@@ -265,7 +288,8 @@ function show(data) {
        .on('mouseover', function() { focus.style('display', null); })
        .on('mouseout', function() { focus.style('display', 'none');
                                     valw.text('words: ' + wmax);
-                                    valk.text('kanji ' + kmax); });
+                                    valk.text('kanji: ' + kmax);
+                                    valr.text('kanji/month: -'); });
     dates = data.map(function(d) { return d.date });
     function mousemove() {
         var mx = d3.mouse(this)[0],
@@ -275,25 +299,28 @@ function show(data) {
             words = data[idx].words;
         fline.attr('x1', mx).attr('x2', mx);
         vlinek.attr('x1', mx)
-              .attr('y1', y(data[idx].kanji))
-              .attr('y2', y(data[idx].kanji));
-        valk.text('kanji ' + data[idx].kanji);
+              .attr('y1', y0(data[idx].kanji))
+              .attr('y2', y0(data[idx].kanji));
+        valk.text('kanji: ' + data[idx].kanji);
         vlinew.attr('x1', mx)
-              .attr('y1', y(data[idx].words))
-              .attr('y2', y(data[idx].words));
+              .attr('y1', y0(data[idx].words))
+              .attr('y2', y0(data[idx].words));
         valw.text('words: ' + data[idx].words);
+        valr.text('kanji/month: ' + data[idx].rate);
         }
     }
 
 loadd3(function() {
 
-margin = {top: 6, right: 54, bottom: 64, left: 6},
+margin = {top: 6, right: 54, bottom: 64, left: 54},
     width = 700 - margin.left - margin.right,
     height = 300 - margin.top - margin.bottom;
 parseDate = d3.time.format('%y%m%d').parse;
 x = d3.time.scale()
           .range([0, width]);
-y = d3.scale.linear()
+y0 = d3.scale.linear()      // kanji & vocab
+          .range([height, 0]);
+y1 = d3.scale.linear()      // kanji rate
           .range([height, 0]);
 color = d3.scale.category10();
 xAxis = d3.svg.axis()
@@ -305,20 +332,53 @@ xAxis = d3.svg.axis()
                     else return jo(d)
                     })
               .orient('bottom');
-yAxis = d3.svg.axis()
-              .scale(y)
+yAxisRight = d3.svg.axis()
+              .scale(y0)
               .orient('right');
-line = d3.svg.line()
-             .interpolate('basis')
-             .x(function(d) { return x(d.date); })
-             .y(function(d) { return y(d.kanji); });
+yAxisLeft = d3.svg.axis()
+              .scale(y1)
+              .orient('Left');
 svg = d3.select('#graph').append('svg')
             .attr('width', width + margin.left + margin.right)
             .attr('height', height + margin.top + margin.bottom)
             .append('g')
             .attr('transform', 'translate('+margin.left+','+margin.top+')');
-
 dsv = d3.dsv(' ', 'text/plain');
-d3.text('img/projects/kanji.dat', 'text/plain', parseData);
+d3.text('img/projects/kanji.dat', 'text/plain', function(text) {
+    lines = text.split('\n');
+    var currMonth = -1;
+    var lastMonth = -1;
+    var monthDelta = -1;
+    for(var i=0; i<lines.length; i++) {
+        if(lines[i].length==0) continue;
+        var parts = lines[i].split(' ');
+        var date = parseDate(parts[0]);
+        var kanji = parts[1];
+        var words = parts[2];
+        getDeltaMonth = date.getMonth();
+        if(getDeltaMonth == lastMonth) {
+            }
+        else {
+            currMonth = getDeltaMonth;
+            monthLow = kanji;
+            for(var j=i; currMonth==getDeltaMonth; j++) {
+                if(typeof(lines[j])=='undefined') break;
+                if(lines[j].length==0) continue;
+                var tparts = lines[j].split(' ');
+                var tdate = parseDate(tparts[0]);
+                var tkanji = tparts[1];
+                currMonth = tdate.getMonth();
+                monthHigh = tkanji;
+                }
+            monthDelta = monthHigh-monthLow;
+            }
+        parts.push(monthDelta)
+        lines[i] = parts.join(' ');
+        lastMonth = getDeltaMonth;
+        }
+    text = lines.join('\n');
+    parseData(text);
+    });
+
 });
 </script>

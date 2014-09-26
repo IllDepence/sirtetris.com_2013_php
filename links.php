@@ -13,21 +13,12 @@
             <ul>
             <li><a href="http://10minutemail.com" title="beat spam with the best disposable e-mail service">10 Minute Mail</a></li>
             <li><a href="http://www.bugmenot.com" title="bypass compulsory registration">Bugmenot</a></li>
-            <li><a href="http://www.spambog.com" title="your disposable e-mail address">Spambog</a></li>
-            <li><a href="http://www.mailinator.com" title="let them eat spam!">Mailinator</a></li>
-            <li><a href="http://www.trash-mail.com" title="the throwaway e-mail address">trash-mail</a></li>
             </ul>
         </li>
         <li>Media/design
             <ul>
             <li><a href="http://media.io" title="convert audio online">media.io</a></li>
             <li><a href="http://0to255.com" title="a tool that helps to find color variations">0to255</a></li>
-            </ul>
-        </li>
-        <li>Music
-            <ul>
-            <li><a href="http://listen.grooveshark.com" title="listen to free music online">Grooveshark</a></li>
-            <li><a href="http://www.stereomood.com" title="tuning my emotions">stereomood</a></li>
             </ul>
         </li>
         <li>Misc
@@ -89,6 +80,5 @@
         <a href="http://depthcore.com" title="international digial media and modern art collective">DEPTHCORE</a> &middot; international digial media and modern art collective<br />
         <a href="http://www.blackmesasource.com" title="a half-life 2 total conversion remaking valve software's half-life">Black Mesa</a> &middot; a Half-Life 2 total conversion<br />
         <a href="http://www.portalprelude.com" title="an unofficial prequel to the game portal">Portal: Prelude</a> &middot; an unofficial prequel to the game Portal</p>
-        <a href="http://richarddawkins.net" title="a clear-thinking oasis">RichardDawkins.net</a> &middot; a clear-thinking oasis<br />
     </div>
 </div>
