@@ -2,9 +2,10 @@
     <div class="innercontent_r">
         <h2>GitHub</h2>
         <ul>
+            <li><a href="https://github.com/IllDepence/userscripts">userscripts</a></li>
+            <li><a href="https://github.com/IllDepence/kanjiplot">kanjiplot</a></li>
             <li><a href="https://github.com/IllDepence/calyx">calyx</a></li>
             <li><a href="https://github.com/IllDepence/MALandBots">MALandBots</a></li>
-            <li><a href="https://github.com/IllDepence/kanjiplot">kanjiplot</a></li>
             <li><a href="https://github.com/IllDepence/sirtetris.com">sirtetris.com</a></li>
         </ul>
     </div>
