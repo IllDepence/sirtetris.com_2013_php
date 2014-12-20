@@ -1,8 +1,16 @@
 <div id="floatbox_r">
-    <div class="innercontent_r">
-        <h2>h2</h2>
+    <div class="innercontent_r" style="position: fixed !important; top: 235px !important; left: 50% !important; margin-left: 267px !important;">
+        <h2>Nav</h2>
         <ul>
-            <li>li</li>
+            <li><a href="#japanese">Japanese language</a></li>
+            <li><a href="#penspinning">Penspinning</a></li>
+            <li><a href="#karuta">Kyogi Karuta</a></li>
+            <li><a href="#keyboards">Mechanical keyboards</a></li>
+            <li><a href="#exploration">(Urban) Exploration</a></li>
+            <li><a href="#lockpicking">Lock picking</a></li>
+            <li><a href="#speedrunning">Speedrunning</a></li>
+            <li><a href="#anime">Anime</a></li>
+            <li><a href="#misc">Misc</a></li>
         </ul>
     </div>
 </div>
@@ -16,9 +24,7 @@
 
     <div class="innercontent_l">
         <h1>Context</h1>
-        <p><em>The mindset this content was created with.</em></p>
-        <br />
-        <p>The world is full of interesting things to be discovered, learned, practiced. As one searches for new input, advice from others already into a specific matter can be of great help. Therefore I'd like to share what keeps me moving, learning, living and offer hints and resources for the potentially interested.</p>
+        <p><em>The world is full of interesting things to be discovered, learned, practiced. As one searches for new input, advice from others already into a specific matter can be of great help. Therefore I'd like to share what keeps me moving, learning, living and offer hints and resources for the potentially interested.</em></p>
     </div>
 
     <div class="innercontent_l">
@@ -90,14 +96,14 @@
             <li><a href="http://www.fengyunzhibo.com/space/japan.htm">Japanese TV</a></li>
             <li><a href="?a=079cf21f">Kana input without IM</a> (Linux/BSD)</li>
             <li><a href="http://youtu.be/pFyKE5zPDQM">Kanji handwriting with a graphic tablet</a></li>
-            <li>Wallpaper for <a href="img/interests/dates_anime.png">dates</a>, <a href="img/interests/time_anime.png">time</a>, <a href="img/interests/timespans_anime.png">timespans</a>, <a href="img/interests/casuals_anime.png">casual grammar</a>, <a href="img/interests/indefinite_pronouns_anime.png">indefinite pronouns</a></li>
+            <!--<li>Wallpaper for <a href="img/interests/dates_anime.png">dates</a>, <a href="img/interests/time_anime.png">time</a>, <a href="img/interests/timespans_anime.png">timespans</a>, <a href="img/interests/casuals_anime.png">casual grammar</a>, <a href="img/interests/indefinite_pronouns_anime.png">indefinite pronouns</a></li>-->
         </ul>
         <br />
         <p>My personal Japanese progress has it's own place in the <a href="?c=projects">projects section</a>.</p>
     </div>
 
     <div class="innercontent_l">
-        <h1>Penspinning</h1>
+        <h1 id="penspinning">Penspinning</h1>
         <p><em>Contact juggling with pens!</em></p>
         <br />
         <img src="img/interests/ps.jpg" alt="ps.jpg" />
@@ -109,11 +115,9 @@
         <br />
         <?php
             echo "<p><strong>Some of my recordings</strong></p>".
-                youtubedd("BakFall Session", "TyEd9EJdFMk").
-                youtubedd("BakFall Session 2", "dMXm-HU-bhA").
                 youtubedd("BakFall Session 3", "DHDyYK-nPIA").
-                youtubedd("Copy clip", "shhumscxa0s").
-                youtubedd("Freestyle", "mGnMcw7IM9I");
+                youtubedd("Copy clip", "shhumscxa0s");
+                //youtubedd("Freestyle", "mGnMcw7IM9I");
         ?>
 
     </div>
@@ -148,7 +152,7 @@
     </div>
 
     <div class="innercontent_l">
-        <h1>Mechanical keyboards</h1>
+        <h1 id="keyboards">Mechanical keyboards</h1>
         <p><em>High quality input devices. :3</em></p>
         <br />
         <img src="img/interests/mechkb.png" alt="mechkb.png" />
@@ -162,7 +166,7 @@
     </div>
 
     <div class="innercontent_l">
-        <h1>(Urban) Exploration</h1>
+        <h1 id="exploration">(Urban) Exploration</h1>
         <p><em>Because it's there.</em></p>
         <br />
         <p>To get an idea of what it is about, watch <a href="http://vimeo.com/26200018">Crack The Surface - Episode I</a> and <a href="http://vimeo.com/35626914">Episode II</a>.</p>
@@ -180,15 +184,12 @@
         <h1 id="lockpicking">Lock picking</h1>
         <p><em>Locks are meant to keep honest people honest.</em></p>
         <br />
-        <p>If you are interested in lock picking you might want to take a look at the <a href="http://lockpickguide.com/support-files/mitguidetolockpick.pdf">MIT Guide to Lock Picking</a>. Also a great start is Schuyler Towne's video series <a href="http://www.youtube.com/playlist?list=PL66CD42F86F3A1F85">Locks: Basic operation and manipulation</a>.</p>
+        <p>If you are interested in lock picking you might want to take a look at the <a href="http://lockpickguide.com/support-files/mitguidetolockpick.pdf">MIT Guide to Lock Picking</a>. Another great starting point is Schuyler Towne's video series <a href="http://www.youtube.com/playlist?list=PL66CD42F86F3A1F85">Locks: Basic operation and manipulation</a>.</p>
         <p>Further places to look for interesting content include <a href="http://toool.us/">TOOOL</a> (The Open Organisation Of Lockpickers), <a href="http://www.reddit.com/r/lockpicking/">/r/lockpicking</a> and the <a href="https://www.defcon.org/html/links/dc-archives.html">DEF CON Media Archives Portal</a>, where you can find a lot of recorded talks on the subject of lock picking and physical security in general.</p>
-        <br />
-        <p>I only have more or less basic knowledge of lock mechanics and very limited experience in picking locks. But believe me, it couldn't be any easier to get into it. <a href="img/interests/lockpicking.jpg">Really</a>.</p>
-        <?php echo youtubedd('See?', 'GWj9zMhkurY'); ?>
     </div>
 
     <div class="innercontent_l">
-        <h1>Speedrunning</h1>
+        <h1 id="speedrunning">Speedrunning</h1>
         <p><em>Playing through games quickly, skillfully, and legitimately.</em></p>
         <br />
         <img src="img/interests/agdq.jpg" alt="agdq.jpg" />
@@ -212,17 +213,53 @@
     </div>
 
     <div class="innercontent_l">
-        <h1>Misc</h1>
+        <h1 id="anime">Anime</h1>
+        <p><em>Evidence that Japanese animators are reaching for the moon, while most of their American counterpart remain stuck in the kiddie sandbox.</em> (<a href="https://www.youtube.com/watch?v=yn7U1KIGeuQ">Source</a>)</p>
+        <br />
+        <img src="img/stuff/anime.jpg" alt="anime.jpg" />
+        <br />
+        <p>If you're lucky enough to be able to enjoy anime you're likely to be oversupplied with amazing series and movies for like ... ever.</p>
+        <br />
+        <h3>Web</h3>
+        <p><a href="http://digitalnippon.de/">Digital Nippon</a> (German), <a href="http://anilist.co/">AL</a>/<a href="http://hummingbird.me/">HB</a>/<a href="http://myanimelist.net/">MAL</a>, <a href="http://anidb.net/">AniDB</a>, <a href="http://www.zerochan.net/">zerochan</a>, <a href="http://www.pixiv.net/">pivix</a>, ...</p>
+        <br />
+        <h3>Recommentations</h3>
+        <p>Works of Hayao Miyazaki and Satoshi Kon, Akira, Serial Experiments Lain, Kino no Tabi, Mahou Shoujo Madoka Magica, Usagi Drop, Bakemonogatari.</p>
+        <br />
+        <h3>AMVs</h3>
+        <p>Best sources quality AMVs: <a href="http://amvnews.ru/">amvnews.ru</a> and the <a href="http://www.animemusicvideos.org/forum/viewforum.php?f=41">Recommended AMVs</a> subforum on animemusicvideos.org.</p>
+        <br />
+        <p>Example AMVs:</p>
+        <?php
+            echo youtubedd('Externalize (Chihayafuru/mixed)', '09cyrQu5yVA').
+                youtubedd('Title Goes Here (Bakemonogatari)', 'RtjtNrnj4HM').
+                //youtubedd('The Strike Witches 2.0 (Strike Witches)', 'c4cZHkCk_Zo').
+                youtubedd('Beautiful Moments (mixed)', 'cKOowKsBVeI').
+                youtubedd('Affective Schoolgirls (Nichijou)', '2uHRi67mlsc').
+                youtubedd('Binary Overdrive (Genius Party Beyond - Dimension Bomb)', 'QwMSemZX81U').
+                youtubedd('Distant Echo (mixed)', 'nVMPiEilNm4').
+                youtubedd('Futuristic Lover (Bakemonogatari)', 'iPoH19FuUJQ').
+                youtubedd('Race Against Time Trailer (Dragonball Z)', 'sgeXlq1jvVY').
+                youtubedd('This Is Halloween (Soul Eater)', 'i_zYrYkbrGY').
+                youtubedd('Gun Smoke (Soul Eater)', 'f3dQ8ZxG5dw').
+                youtubedd('Mahou Shoujo Requiem (Mahou Shoujo Madoka Magica)', '4Q9wGu3ILeo').
+                youtubedd('The Nightmagi Cometh (Mahou Shoujo Madoka Magica)', 'JiKxNI7_5dc');
+        ?>
+        <!--<br />
+        <h3>Elfen Lied</h3>
+        <p>The first thing I watched after re-discovering anime was Elfen Lied. As I was blown away I became kind of obsessed with it and collected loads of information and fan art. Since this could be of some use to others I'll just <a href="?c=el">leave this here</a>.</p>-->
+    </div>
+
+    <div class="innercontent_l">
+        <h1 id="misc">Misc</h1>
         <p>Stuff that I was into, want to get into, am into but lack usable content to present or motiavtion to write an own section about, is represented somewhere else on the site, etc.</p>
         <ul>
-            <li><a href="?c=stuff#anime">anime</a></li>
             <li>cinematography (as in <a href="src/movielist/movies">I watch movies</a>)</li>
             <li>flourishing (<a href="img/interests/flourishing.gif">2009)</a></li>
             <li>it security</li>
             <li>linux</li>
             <li>open source</li>
             <li><a href="img/interests/parkour.gif">parkour</a> (not only indoors ofc)</li>
-            <li><a href="?c=stuff#books">philosophy</a></li>
             <li>photography (as in <a href="img/interests/DSC_0131cgs1000.jpg">I own a DSLR camera</a>)</li>
             <li>psychology (took a class in WS 13/14)</li>
             <li>physical security (see <a href="#lockpicking">lock picking</a>)</li>

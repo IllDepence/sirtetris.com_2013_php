@@ -9,7 +9,7 @@ function getSite($HOST, $PATH="") {
 	$status = array();
 	$answer = "";
 	$fp = fsockopen($HOST, 80, $errorno, $errstr, 30);
-	if(!fp) echo $errstr." (".$errno.") <br />";
+	if(!$fp) echo $errstr." (".$errno.") <br />";
 	else {
 		$out = "GET /".$PATH." HTTP/1.1\r\n";
 		$out .= "Host: ".$HOST."\r\n";
@@ -71,6 +71,7 @@ function getDescription($page) {
 		$d_chunk_pre = explode(". ", $fulldescr);
 		$cnt = 0; 	// prechunks in temp
 		$cnt2 = 0; 	// position in d_chunk
+		$temp = "";
 		foreach($d_chunk_pre as $dcp) {
 			if($cnt) $temp .= ". "; 	// add dot if not first prechunk to save in temp
 			$temp .= $dcp;			// add prechunk in temp

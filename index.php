@@ -4,7 +4,8 @@
     block_shitheads();
     log_visit();
 
-    $navitems = array('blog', 'person', 'interests', 'stuff', 'projects', 'links', 'contact');
+    $navitems = array('tl;dr', '', '', '', '', '', '',
+                        'blog', 'person', 'interests', 'projects', '', '', 'contact');
     $validcontent = array_merge($navitems, array('el', 'imprint'));
     $valid = 0;
     if(isset($_GET['c'])) {
@@ -68,7 +69,7 @@
     <div id="navbox">
     <?php
         for($i=0; $i<14; $i++) {
-            if($i<count($navitems)) echo '<a href="?c='.urlsave($navitems[$i]).'"><div class="navitem">'.$navitems[$i].'</div></a>';
+            if($i<count($navitems) && strlen($navitems[$i])>0) echo '<a href="?c='.urlsave($navitems[$i]).'"><div class="navitem">'.$navitems[$i].'</div></a>';
             else echo '<div class="navitem"></div>';
             }
     ?>

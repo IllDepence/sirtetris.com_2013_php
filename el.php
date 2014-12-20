@@ -1,6 +1,6 @@
 <div id="floatbox_r">
 	<div class="innercontent_r" style="position: fixed !important; top: 235px !important; left: 50% !important; margin-left: 267px !important;">
-		<h2>Quicklinks</h2>
+		<h2>Nav</h2>
 		<ul>
 			<li><a href="#info"><strong>Information</strong></a></li>
 			<li><a href="#amv"><strong>AMVs</strong></a></li>

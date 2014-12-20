@@ -4,6 +4,8 @@
         <ul>
             <li><a href="https://github.com/IllDepence/userscripts">userscripts</a></li>
             <li><a href="https://github.com/IllDepence/kanjiplot">kanjiplot</a></li>
+            <li><a href="https://github.com/IllDepence/findvocab">findvocab</a></li>
+            <li><a href="https://github.com/IllDepence/anihilist">anihilist</a></li>
             <li><a href="https://github.com/IllDepence/calyx">calyx</a></li>
             <li><a href="https://github.com/IllDepence/MALandBots">MALandBots</a></li>
             <li><a href="https://github.com/IllDepence/sirtetris.com">sirtetris.com</a></li>
@@ -31,14 +33,14 @@
     </div> -->
 
     <div class="innercontent_l">
-        <h1>日本語</h1>
-        <p><em>私は頑張ります！</em></p>
+        <h1>I study Japanese!</h1>
+        <p><em>２０１３年の３月から日本語を勉強してる。</em></p>
         <br />
         <img src="img/projects/jp.png" alt="jp.png" />
         <br />
         <p>I started off with three beginner level Japanese courses offered by the language center at my uni. Once they were over I continued learning on my own.</p>
         <div class="hr"></div>
-        <h3>Progress</h3>
+        <h3 id="jp-progress">Progress</h3>
         <br />
         <div id="graph"><img src="img/projects/kanjistats.png" alt="kanjistats.png" /></div>
         <p>(plotted using <a href="https://github.com/IllDepence/kanjiplot">this script</a>)</p>
@@ -148,21 +150,32 @@
             <td>14/09/11</td>
             <td><a href="?a=49fc37e4">1200 kanji</a></td>
             </tr>
+            <td>14/10/15</td>
+            <td><a href="?a=dd9836fb">1300 kanji</a></td>
+            </tr>
+            </tr>
+            <td>14/10/27</td>
+            <td>started weekly tandem language learning sessions with Japanese exchange students</td>
+            </tr>
+            </tr>
+            <td>14/11/20</td>
+            <td><a href="?a=9b8e3e23">1400 kanji</a></td>
+            </tr>
         </table>
     </div>
 
     <div class="innercontent_l">
-        <h1>Raspberry Pi</h1>
-        <p><em>An ARM GNU/Linux box for $25. Take a byte!</em></p>
+        <h1>I tinker with tech!</h1>
+        <p><em>Mostly in terms of software though.</em></p>
         <br />
         <img src="img/projects/rpi.png" alt="rpi.png" />
         <br />
-        <p><a href="http://www.raspberrypi.org/">Raspberry Pis</a>! But tbh ... I just want to show off my awesome lego case. :3 Until now my Pis ran Arch Linux, Gentoo, FreeBSD, Raspbian and Raspbmc. I really want to try out <a href="http://www.cl.cam.ac.uk/freshers/raspberrypi/tutorials/os/">Baking Pi</a> some time.</p>
+        <p><a href="https://github.com/IllDepence/dotfiles">Linux systems</a>, <a href="https://github.com/IllDepence/kanjiplot">tools</a>, <a href="https://github.com/IllDepence/GO-AWAY-I-M-EXPLODING">games</a>, ... tinker with all the things! What you see above is one of my <a href="http://www.raspberrypi.org/">Raspberry Pis.</a></p>
     </div>
 
     <div class="innercontent_l">
-        <h1>Personal website</h1>
-        <p><em>I really don't know why I do this apart from than that it's fun.</em></p>
+        <h1>I have a website!</h1>
+        <p><em>It's a clunky pile of PHP but I don't care. :)</em></p>
         <br />
         <img src="img/projects/websites.png" alt="websites.png" />
         <br />
