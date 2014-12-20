@@ -19,12 +19,27 @@ if(isset($_GET['a'])) {
 // handle tags
 if(!$permalink && isset($_GET['t'])) {
     $tmp = Array();
+    $tags = Array();
     foreach($blogentries as $b) {
+        foreach($b->tags as $t) {
+            if(!in_array($t, $tags) && $tags[$t]<1) {
+                $tags[$t] = 0;
+                }
+            $tags[$t] = $tags[$t]+1;
+            }
         if(in_array($_GET['t'], $b->tags)) {
             array_push($tmp, $b);
             }
         }
     $blogentries = $tmp;
+    arsort($tags);
+
+    echo '<div class="innercontent_b"><strong>all tags: ';
+    foreach($tags as $t => $val) {
+        echo '<a href="?t='.$t.'">'.$t.'</a> ';
+        }
+     echo '</strong></div>';
+
     $entries_per_page = 999999;
     }
 else {
