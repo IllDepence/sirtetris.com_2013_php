@@ -212,7 +212,7 @@ overflow: hidden;
 clear: both;
 }
 
-div.footline div.comments {
+div.footline div.tags {
 float: left;
 }
 
@@ -235,25 +235,6 @@ background-color: #434343;
 font-size: 11px;
 white-space: pre-wrap;
 overflow: hidden;
-}
-
-div.innercontent_b > div.comment {
-margin: 0px 10px 7px 7px;
-}
-
-div.comment {
-margin-top: 10px;
-}
-
-div.comment > p:first-child {
-background-color: #d5d5d5;
-font-size: 11px;
-padding: 1px 2px 1px 2px;
-margin: 5px 0px 2px 0px;
-}
-
-div.comment > p:last-child {
-margin-left: 3px;
 }
 
 div.imgsrc {
@@ -301,26 +282,6 @@ text-decoration: none;
 
 span.a:hover {
 color: #006378;
-}
-
-form.commentform {
-margin: 5px 10px 10px 10px;
-}
-
-textarea.commenttext {
-width: 882px;
-height: 66px;
-margin-bottom: 3px;
-}
-
-input.commentpost {
-font-size: 12px;
-margin-top: 3px;
-}
-
-input.commentreset {
-font-size: 12px;
-margin: 3px 0px 0px 3px;
 }
 
 a.info, a.info:hover {
