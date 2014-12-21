@@ -34,16 +34,22 @@ if(!$permalink && isset($_GET['t'])) {
     $blogentries = $tmp;
     arsort($tags);
 
-    echo '<div class="innercontent_b"><strong>all tags: ';
+    echo '<div class="innercontent_b">'.
+         '<div class="headline"><h1>'.
+         '#'.$_GET['t'].
+         '</h1></div>';
+    echo '<div class="textbody"><strong>all tags: ';
     foreach($tags as $t => $val) {
-        echo '<a href="?t='.$t.'">'.$t.'</a> ';
+        echo '<a href="?t='.$t.'">'.$t.'</a></strong>['.$val.']<strong> ';
         }
-     echo '</strong></div>';
+    echo '</strong></div></div>';
 
     $entries_per_page = 999999;
+    $tagview = true;
     }
 else {
     $entries_per_page = 3;
+    $tagview = false;
     }
 
 // handle pages
@@ -112,7 +118,7 @@ foreach($blogentries as $i => $b) {
     }
 
 // page controls if permalink is not set
-if(!$permalink) {
+if(!$permalink && !$tagview) {
     echo '<div class="innercontent_b" style="text-align: center; padding: 0px;">'.
             ($currpage < $num_pages ? '<a href="?c=blog&amp;p='.$prevpage.'" title="older enties"><div class="blog_nav blog_nav_hover"><p>&laquo;</p></div></a>' : '<div class="blog_nav"><p>&laquo;</p></div>').
             '<div class="blog_nav" style="width: 50%;"><p>';
